@@ -8,6 +8,15 @@ Window {
 
     Button {
         text: "Connect"
-        onClicked: quicClient.connect()
+        onClicked: screenCapture.takeScreenShot()
+        background: Rectangle {
+            width: parent.width
+            height: parent.height
+            gradient: Gradient {
+                GradientStop { position: 0.0; color: "lightblue" }
+                GradientStop { position: 1.0; color: "darkblue" }
+            }
+            radius: 10
+        }
     }
 }

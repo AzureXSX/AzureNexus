@@ -18,6 +18,7 @@ qt_add_qml_module(appAzureNexus
     SOURCES quicclient.h quicclient.cpp
     SOURCES appAzureNexus/proto/test.pb.h
     SOURCES appAzureNexus/proto/test.pb.cc
+    SOURCES screencapture.h screencapture.cpp
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

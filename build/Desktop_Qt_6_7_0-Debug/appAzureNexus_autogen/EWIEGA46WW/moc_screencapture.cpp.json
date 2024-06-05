@@ -1,0 +1,24 @@
+{
+    "classes": [
+        {
+            "className": "ScreenCapture",
+            "methods": [
+                {
+                    "access": "public",
+                    "name": "takeScreenShot",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "ScreenCapture",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "screencapture.h",
+    "outputRevision": 68
+}

@@ -186,7 +186,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //No help, variable specified on the command line.
-CMAKE_PREFIX_PATH:PATH=/home/azure/Qt/6.7.0/gcc_64
+CMAKE_PREFIX_PATH:PATH=/home/azure/Qt/6.7.1/gcc_64;/home/azure/Qt/6.7.0/gcc_64
 
 //Value Computed by CMake
 CMAKE_PROJECT_DESCRIPTION:STATIC=
@@ -333,58 +333,61 @@ QT_ADDITIONAL_PACKAGES_PREFIX_PATH:STRING=
 QT_CREATOR_SKIP_PACKAGE_MANAGER_SETUP:BOOL=OFF
 
 //No help, variable specified on the command line.
-QT_QMAKE_EXECUTABLE:FILEPATH=/home/azure/Qt/6.7.0/gcc_64/bin/qmake
+QT_QMAKE_EXECUTABLE:FILEPATH=/home/azure/Qt/6.7.1/gcc_64/bin/qmake
 
 //The directory containing a CMake configuration file for Qt6CoreTools.
-Qt6CoreTools_DIR:PATH=/home/azure/Qt/6.7.0/gcc_64/lib/cmake/Qt6CoreTools
+Qt6CoreTools_DIR:PATH=/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6CoreTools
 
 //The directory containing a CMake configuration file for Qt6Core.
-Qt6Core_DIR:PATH=/home/azure/Qt/6.7.0/gcc_64/lib/cmake/Qt6Core
+Qt6Core_DIR:PATH=/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Core
 
 //The directory containing a CMake configuration file for Qt6DBusTools.
-Qt6DBusTools_DIR:PATH=/home/azure/Qt/6.7.0/gcc_64/lib/cmake/Qt6DBusTools
+Qt6DBusTools_DIR:PATH=/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6DBusTools
 
 //The directory containing a CMake configuration file for Qt6DBus.
-Qt6DBus_DIR:PATH=/home/azure/Qt/6.7.0/gcc_64/lib/cmake/Qt6DBus
+Qt6DBus_DIR:PATH=/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6DBus
 
 //The directory containing a CMake configuration file for Qt6GuiTools.
-Qt6GuiTools_DIR:PATH=/home/azure/Qt/6.7.0/gcc_64/lib/cmake/Qt6GuiTools
+Qt6GuiTools_DIR:PATH=/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6GuiTools
 
 //The directory containing a CMake configuration file for Qt6Gui.
-Qt6Gui_DIR:PATH=/home/azure/Qt/6.7.0/gcc_64/lib/cmake/Qt6Gui
+Qt6Gui_DIR:PATH=/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Gui
 
 //The directory containing a CMake configuration file for Qt6Network.
-Qt6Network_DIR:PATH=/home/azure/Qt/6.7.0/gcc_64/lib/cmake/Qt6Network
+Qt6Network_DIR:PATH=/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Network
 
 //The directory containing a CMake configuration file for Qt6OpenGL.
-Qt6OpenGL_DIR:PATH=/home/azure/Qt/6.7.0/gcc_64/lib/cmake/Qt6OpenGL
+Qt6OpenGL_DIR:PATH=/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6OpenGL
 
 //The directory containing a CMake configuration file for Qt6QmlBuiltins.
-Qt6QmlBuiltins_DIR:PATH=/home/azure/Qt/6.7.0/gcc_64/lib/cmake/Qt6QmlBuiltins
+Qt6QmlBuiltins_DIR:PATH=/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6QmlBuiltins
 
 //The directory containing a CMake configuration file for Qt6QmlCompilerPlusPrivate.
 Qt6QmlCompilerPlusPrivate_DIR:PATH=Qt6QmlCompilerPlusPrivate_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for Qt6QmlIntegration.
-Qt6QmlIntegration_DIR:PATH=/home/azure/Qt/6.7.0/gcc_64/lib/cmake/Qt6QmlIntegration
+Qt6QmlIntegration_DIR:PATH=/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6QmlIntegration
 
 //The directory containing a CMake configuration file for Qt6QmlModels.
-Qt6QmlModels_DIR:PATH=/home/azure/Qt/6.7.0/gcc_64/lib/cmake/Qt6QmlModels
+Qt6QmlModels_DIR:PATH=/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6QmlModels
 
 //The directory containing a CMake configuration file for Qt6QmlTools.
-Qt6QmlTools_DIR:PATH=/home/azure/Qt/6.7.0/gcc_64/lib/cmake/Qt6QmlTools
+Qt6QmlTools_DIR:PATH=/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6QmlTools
 
 //The directory containing a CMake configuration file for Qt6Qml.
-Qt6Qml_DIR:PATH=/home/azure/Qt/6.7.0/gcc_64/lib/cmake/Qt6Qml
+Qt6Qml_DIR:PATH=/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml
 
 //The directory containing a CMake configuration file for Qt6QuickTools.
-Qt6QuickTools_DIR:PATH=/home/azure/Qt/6.7.0/gcc_64/lib/cmake/Qt6QuickTools
+Qt6QuickTools_DIR:PATH=/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6QuickTools
 
 //The directory containing a CMake configuration file for Qt6Quick.
-Qt6Quick_DIR:PATH=/home/azure/Qt/6.7.0/gcc_64/lib/cmake/Qt6Quick
+Qt6Quick_DIR:PATH=/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Quick
+
+//The directory containing a CMake configuration file for Qt6WaylandCompositor.
+Qt6WaylandCompositor_DIR:PATH=Qt6WaylandCompositor_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for Qt6.
-Qt6_DIR:PATH=/home/azure/Qt/6.7.0/gcc_64/lib/cmake/Qt6
+Qt6_DIR:PATH=/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6
 
 //Path to a program.
 Vulkan_GLSLANG_VALIDATOR_EXECUTABLE:FILEPATH=/bin/glslangValidator
@@ -797,7 +800,7 @@ QT_FEATURE_eglfs_brcm:INTERNAL=OFF
 //Qt feature: eglfs_egldevice (from target Qt6::Gui)
 QT_FEATURE_eglfs_egldevice:INTERNAL=ON
 //Qt feature: eglfs_gbm (from target Qt6::Gui)
-QT_FEATURE_eglfs_gbm:INTERNAL=OFF
+QT_FEATURE_eglfs_gbm:INTERNAL=ON
 //Qt feature: eglfs_mali (from target Qt6::Gui)
 QT_FEATURE_eglfs_mali:INTERNAL=OFF
 //Qt feature: eglfs_openwfd (from target Qt6::Gui)
@@ -812,6 +815,8 @@ QT_FEATURE_eglfs_viv_wl:INTERNAL=OFF
 QT_FEATURE_eglfs_vsp2:INTERNAL=OFF
 //Qt feature: eglfs_x11 (from target Qt6::Gui)
 QT_FEATURE_eglfs_x11:INTERNAL=ON
+//Qt feature: elf_private_full_version (from target Qt6::Core)
+QT_FEATURE_elf_private_full_version:INTERNAL=OFF
 //Qt feature: enable_new_dtags (from target Qt6::Core)
 QT_FEATURE_enable_new_dtags:INTERNAL=ON
 //Qt feature: etw (from target Qt6::Core)
@@ -842,6 +847,8 @@ QT_FEATURE_freetype:INTERNAL=ON
 QT_FEATURE_futimens:INTERNAL=ON
 //Qt feature: future (from target Qt6::Core)
 QT_FEATURE_future:INTERNAL=ON
+//Qt feature: gbm (from target Qt6::Gui)
+QT_FEATURE_gbm:INTERNAL=ON
 //Qt feature: gc_binaries (from target Qt6::Core)
 QT_FEATURE_gc_binaries:INTERNAL=OFF
 //Qt feature: gestures (from target Qt6::Core)
@@ -1344,7 +1351,7 @@ QT_FEATURE_xmlstreamwriter:INTERNAL=ON
 //Qt feature: xrender (from target Qt6::Gui)
 QT_FEATURE_xrender:INTERNAL=OFF
 //Qt feature: zstd (from target Qt6::Core)
-QT_FEATURE_zstd:INTERNAL=ON
+QT_FEATURE_zstd:INTERNAL=OFF
 //ADVANCED property for variable: Vulkan_GLSLANG_VALIDATOR_EXECUTABLE
 Vulkan_GLSLANG_VALIDATOR_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Vulkan_GLSLC_EXECUTABLE
@@ -1359,7 +1366,7 @@ _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
 __pkg_config_arguments_PKG_XKB:INTERNAL=QUIET;xkbcommon
 __pkg_config_checked_PKG_XKB:INTERNAL=1
-__qt_qml_macros_module_base_dir:INTERNAL=/home/azure/Qt/6.7.0/gcc_64/lib/cmake/Qt6Qml
+__qt_qml_macros_module_base_dir:INTERNAL=/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml
 //ADVANCED property for variable: pkgcfg_lib_PKG_XKB_xkbcommon
 pkgcfg_lib_PKG_XKB_xkbcommon-ADVANCED:INTERNAL=1
 prefix_result:INTERNAL=/usr/lib

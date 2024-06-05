@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/AzureNexus">
+    <file alias="qmldir">/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/AzureNexus/qmldir</file>
+  </qresource>
+</RCC>
+

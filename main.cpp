@@ -3,6 +3,7 @@
 #include <QQmlContext>
 
 #include "quicclient.h"
+#include "screencapture.h"
 
 int main(int argc, char *argv[])
 {
@@ -13,10 +14,12 @@ int main(int argc, char *argv[])
     const char *key = "/home/azure/Documents/GitHub/Linux-x64-HTTP3/certs/server.key";
 
     QuicClient quicClient(host, udpPort, cert, key);
+    ScreenCapture screenCapture(0,0);
 
     QQmlApplicationEngine engine;
 
     engine.rootContext()->setContextProperty("quicClient", &quicClient);
+    engine.rootContext()->setContextProperty("screenCapture", &screenCapture);
 
     const QUrl url(QStringLiteral("qrc:/AzureNexus/main.qml"));
     QObject::connect(
