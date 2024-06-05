@@ -1,0 +1,1 @@
+set(__QT_DEPLOY_TARGET_appAzureNexus_FILE /home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/appAzureNexus)

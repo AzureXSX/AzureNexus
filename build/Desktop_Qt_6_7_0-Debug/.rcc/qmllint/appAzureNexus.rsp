@@ -1,0 +1,10 @@
+--bare
+-I
+/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug
+-I
+/home/azure/Qt/6.7.0/gcc_64/./qml
+--resource
+/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/.rcc/qmake_AzureNexus.qrc
+--resource
+/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/.rcc/appAzureNexus_raw_qml_0.qrc
+/home/azure/AzureNexus/main.qml

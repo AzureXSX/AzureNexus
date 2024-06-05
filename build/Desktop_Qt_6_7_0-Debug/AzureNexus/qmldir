@@ -1,0 +1,4 @@
+module AzureNexus
+typeinfo appAzureNexus.qmltypes
+prefer :/AzureNexus/
+

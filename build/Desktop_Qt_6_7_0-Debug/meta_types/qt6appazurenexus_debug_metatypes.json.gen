@@ -1,0 +1,42 @@
+[
+    {
+        "classes": [
+            {
+                "className": "QuicClient",
+                "methods": [
+                    {
+                        "access": "public",
+                        "name": "connect",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "Disconnect",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "message",
+                                "type": "absl::Cord"
+                            }
+                        ],
+                        "name": "send",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "QuicClient",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "quicclient.h",
+        "outputRevision": 68
+    }
+]

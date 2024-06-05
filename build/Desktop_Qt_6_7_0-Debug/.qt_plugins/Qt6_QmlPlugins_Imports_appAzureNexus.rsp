@@ -1,0 +1,14 @@
+-rootPath
+/home/azure/AzureNexus
+-cmake-output
+-output-file
+/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appAzureNexus.cmake
+-importPath
+/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/AzureNexus
+-importPath
+/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug
+-importPath
+/home/azure/Qt/6.7.0/gcc_64/./qml
+-qrcFiles
+/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/.rcc/qmake_AzureNexus.qrc
+/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/.rcc/appAzureNexus_raw_qml_0.qrc
