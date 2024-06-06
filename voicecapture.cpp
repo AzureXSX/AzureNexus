@@ -4,6 +4,30 @@ VoiceCapture::VoiceCapture(QObject* parent) : QObject(parent){
 
 };
 
+VoiceCapture::~VoiceCapture(){
+    if(session) delete session;
+    if(recorder) delete recorder;
+    if(audioInput) delete audioInput;
+    if(buffer) delete buffer;
+    if(audioSource) delete audioSource;
+}
+
+void VoiceCapture::handleStateChanged(QAudio::State newState){
+    switch (newState) {
+    case QAudio::StoppedState:
+
+        break;
+
+    case QAudio::ActiveState:
+        qDebug() << "Active" << "\n";
+        break;
+
+    default:
+        // ... other cases as appropriate
+        break;
+    }
+}
+
 VoiceCapture::VoiceCapture() {
     session = new QMediaCaptureSession();
     session->setAudioInput(new QAudioInput(QMediaDevices::defaultAudioInput()));
@@ -22,6 +46,13 @@ VoiceCapture::VoiceCapture() {
     //session->recorder()->setOutputLocation(QUrl::fromLocalFile("/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/test"));
     buffer = new QBuffer(&audioData);
     buffer->open(QIODevice::ReadWrite);
+    QAudioFormat formatA;
+    formatA.setSampleRate(8000);
+    formatA.setChannelCount(1);
+    formatA.setSampleFormat(QAudioFormat::UInt8);
+    audioSource = new QAudioSource(session->audioInput()->device(), formatA);
+    connect(audioSource, &QAudioSource::stateChanged, this, VoiceCapture::handleStateChanged);
+    audioSource->start();
 }
 
 Q_INVOKABLE void VoiceCapture::start() {

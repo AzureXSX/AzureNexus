@@ -1,5 +1,6 @@
 /home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/appAzureNexus_autogen/EWIEGA46WW/moc_voicecapture.cpp: /home/azure/AzureNexus/voicecapture.h \
   /home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/appAzureNexus_autogen/moc_predefs.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QBuffer \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QDebug \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QObject \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QUrl \
@@ -17,6 +18,7 @@
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qatomic_cxx11.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qbasicatomic.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qbindingstorage.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qbuffer.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qbytearray.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qbytearrayalgorithms.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qbytearraylist.h \
@@ -157,6 +159,7 @@
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qwindowdefs.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/QAudioDevice \
   /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/QAudioInput \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/QAudioSource \
   /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/QMediaCaptureSession \
   /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/QMediaDevices \
   /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/QMediaFormat \
@@ -165,6 +168,7 @@
   /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qaudiodevice.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qaudioformat.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qaudioinput.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qaudiosource.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qmediacapturesession.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qmediadevices.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qmediaenumdebug.h \

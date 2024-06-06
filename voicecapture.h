@@ -12,20 +12,24 @@
 #include <QMediaFormat>
 #include <QFileDialog>
 #include <QBuffer>
+#include <QAudioSource>
 class VoiceCapture : public QObject
 {
     Q_OBJECT
-
+public:
+    explicit VoiceCapture(QObject* parent);
+    Q_INVOKABLE void start();
+    Q_INVOKABLE void stop();
+    static void handleStateChanged(QAudio::State newState);
+    VoiceCapture();
+    ~VoiceCapture();
+private:
     QMediaCaptureSession* session;
     QMediaRecorder* recorder;
     QAudioInput* audioInput;
     QByteArray audioData;
     QBuffer* buffer;
-public:
-    explicit VoiceCapture(QObject* parent);
-    Q_INVOKABLE void start();
-    Q_INVOKABLE void stop();
-    VoiceCapture();
+    QAudioSource* audioSource;
 };
 
 #endif // VOICECAPTURE_H

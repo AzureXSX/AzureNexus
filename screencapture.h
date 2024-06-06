@@ -19,6 +19,7 @@ public:
     Q_INVOKABLE void takeScreenShot();
     ScreenCapture(int width = 0, int height = 0);
     ScreenCapture();
+    ~ScreenCapture();
 private:
     QScreenCapture screenCapture;
     QMediaCaptureSession captureSession;

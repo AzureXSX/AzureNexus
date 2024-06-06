@@ -202,6 +202,7 @@ appAzureNexus_autogen/timestamp: \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qwindowdefs.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/QAudioDevice \
   /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/QAudioInput \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/QAudioSource \
   /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/QMediaCaptureSession \
   /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/QMediaDevices \
   /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/QMediaFormat \
@@ -211,6 +212,7 @@ appAzureNexus_autogen/timestamp: \
   /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qaudiodevice.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qaudioformat.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qaudioinput.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qaudiosource.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qmediacapturesession.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qmediadevices.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qmediaenumdebug.h \
