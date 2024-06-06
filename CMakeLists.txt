@@ -5,7 +5,8 @@ project(AzureNexus VERSION 0.1 LANGUAGES CXX)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Qt6 6.2 COMPONENTS Quick REQUIRED)
+find_package(Qt6 6.7 COMPONENTS Quick REQUIRED)
+find_package(Qt6 REQUIRED COMPONENTS Widgets Multimedia)
 
 qt_add_executable(appAzureNexus
     main.cpp
@@ -19,6 +20,7 @@ qt_add_qml_module(appAzureNexus
     SOURCES appAzureNexus/proto/test.pb.h
     SOURCES appAzureNexus/proto/test.pb.cc
     SOURCES screencapture.h screencapture.cpp
+    SOURCES voicecapture.h voicecapture.cpp
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
@@ -34,6 +36,7 @@ set_target_properties(appAzureNexus PROPERTIES
 
 target_link_libraries(appAzureNexus PRIVATE
     Qt6::Quick
+    Qt6::Multimedia
     ${CMAKE_CURRENT_SOURCE_DIR}/appAzureNexus/MsQuic/bin/libmsquic.so
     protobuf
     absl_log_internal_check_op

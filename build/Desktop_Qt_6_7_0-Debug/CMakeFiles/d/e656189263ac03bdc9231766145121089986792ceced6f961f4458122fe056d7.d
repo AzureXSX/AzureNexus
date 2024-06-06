@@ -17,8 +17,11 @@ appAzureNexus_autogen/timestamp: \
   /home/azure/MsQuic/include/quic_sal_stub.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QBuffer \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QDateTime \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QDebug \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QEvent \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QFile \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QList \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QMargins \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QObject \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QRect \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QSize \
@@ -156,9 +159,12 @@ appAzureNexus_autogen/timestamp: \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/QPixmap \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/QScreen \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/QTransform \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qbitmap.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qcolor.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qcursor.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qguiapplication.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qguiapplication_platform.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qicon.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qimage.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qinputmethod.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qpaintdevice.h \
@@ -170,11 +176,21 @@ appAzureNexus_autogen/timestamp: \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qrgba64.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qscreen.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qscreen_platform.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qsurface.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qsurfaceformat.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qtgui-config.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qtguiexports.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qtguiglobal.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qtransform.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qwindow.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qwindowdefs.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/QMediaCaptureSession \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/QScreenCapture \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qmediacapturesession.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qscreencapture.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qtmultimedia-config.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qtmultimediaexports.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qtmultimediaglobal.h \
   /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake \
   /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
   /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake \
@@ -374,6 +390,23 @@ appAzureNexus_autogen/timestamp: \
   /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
   /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
   /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaAdditionalTargetInfo.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfig.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersion.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersionImpl.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaDependencies.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaPlugins.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets-relwithdebinfo.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaVersionlessTargets.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginAdditionalTargetInfo.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginConfig.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets-relwithdebinfo.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QGstreamerMediaPluginAdditionalTargetInfo.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QGstreamerMediaPluginConfig.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QGstreamerMediaPluginTargets-relwithdebinfo.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6QGstreamerMediaPluginTargets.cmake \
   /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake \
   /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake \
   /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersion.cmake \
@@ -723,6 +756,24 @@ appAzureNexus_autogen/timestamp: \
   /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets-relwithdebinfo.cmake \
   /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets.cmake \
   /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsVersionlessTargets.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
+  /home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
   /home/azure/Qt/Tools/CMake/bin/cmake \
   /home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeCXXInformation.cmake \
   /home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \

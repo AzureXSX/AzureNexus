@@ -7,6 +7,9 @@
 #include <QDateTime>
 #include <QBuffer>
 #include <QFile>
+#include <QScreenCapture>
+#include <QMediaCaptureSession>
+#include <QDebug>
 
 class ScreenCapture : public QObject
 {
@@ -16,6 +19,9 @@ public:
     Q_INVOKABLE void takeScreenShot();
     ScreenCapture(int width = 0, int height = 0);
     ScreenCapture();
+private:
+    QScreenCapture screenCapture;
+    QMediaCaptureSession captureSession;
 };
 
 #endif // SCREENCAPTURE_H

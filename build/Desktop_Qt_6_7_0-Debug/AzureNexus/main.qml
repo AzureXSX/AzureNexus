@@ -5,18 +5,15 @@ Window {
     height: 480
     visible: true
     title: qsTr("Hello World")
+    color:  "#1c1f24"
 
-    Button {
-        text: "Connect"
+    TextInput {
+        width: 200
+        height: 70
+        color: "white"
+    }
+    Button{
+        text: "uwu"
         onClicked: screenCapture.takeScreenShot()
-        background: Rectangle {
-            width: parent.width
-            height: parent.height
-            gradient: Gradient {
-                GradientStop { position: 0.0; color: "lightblue" }
-                GradientStop { position: 1.0; color: "darkblue" }
-            }
-            radius: 10
-        }
     }
 }

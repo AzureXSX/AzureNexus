@@ -9,29 +9,39 @@ ScreenCapture::ScreenCapture(int, int) {
 ScreenCapture::ScreenCapture(QObject *parent) : QObject(parent) {
 }
 
+bool saveScreenshot(const QPixmap &pixmap, const QString &filename) {
+    QFile file(filename);
+    if (!file.open(QIODevice::WriteOnly)) {
+        qWarning() << "Failed to open file for writing:" << filename;
+        return false;
+    }
+    QDataStream out(&file);
+    out << pixmap;
+    file.close();
+    return true;
+}
+
 Q_INVOKABLE void ScreenCapture::takeScreenShot(){
-    QImage screenshot = QGuiApplication::primaryScreen()->grabWindow(0).toImage();
+    QScreen *screen = QGuiApplication::primaryScreen();
+    if (!screen) {
+        qWarning() << "No primary screen found.";
+        return;
+    }
 
-    // Create a byte array to hold the image data
-    QByteArray imageData;
+    qDebug() << "Screen name: " << screen->name() << "\n";
+    qDebug() << "Resolution: " << screen->geometry().width() << "x" << screen->geometry().height() << "\n";
 
-    // Create a buffer and open it for writing
-    QBuffer buffer(&imageData);
-    buffer.open(QIODevice::WriteOnly);
+    // Grab the window under the cursor
+    QPixmap screenshot = screen->grabWindow(0);
 
-    // Save the screenshot to the buffer in JPEG format
-    screenshot.save(&buffer, "JPEG");
-
-    // Close the buffer after writing
-    buffer.close();
-
-    // Save the buffer contents to a file
-    QFile file("screenshot.jpg");
-    if (file.open(QIODevice::WriteOnly)) {
-        file.write(imageData);
-        file.close();
-        qDebug() << "Screenshot saved as screenshot.jpg";
+    if (!screenshot.isNull()) {
+        QString filename = QString("screenshot_%1.png").arg(QDateTime::currentDateTime().toString("yyyyMMdd_HHmmss"));
+        if (saveScreenshot(screenshot, filename)) {
+            qDebug() << "Screenshot saved to" << filename;
+        } else {
+            qWarning() << "Failed to save screenshot.";
+        }
     } else {
-        qDebug() << "Failed to save screenshot";
+        qWarning() << "Failed to capture screenshot.";
     }
 }

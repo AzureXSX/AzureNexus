@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-3aa73114ed5927a83bd1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "AzureNexus",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-53174c2100d2d017d527.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-1dc948819211bd09d838.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-657734b8d68eaa1a071c.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-3d1c8d41666c34b98c0c.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appAzureNexus::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appAzureNexus-Debug-693c8018341c342c930d.json",
+					"name" : "appAzureNexus",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appAzureNexus_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appAzureNexus_autogen-Debug-092aef5767a02d45e8f5.json",
+					"name" : "appAzureNexus_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appAzureNexus_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appAzureNexus_autogen_timestamp_deps-Debug-3fab4a5fa770aefaab15.json",
+					"name" : "appAzureNexus_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appAzureNexus_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appAzureNexus_qmlimportscan-Debug-3205a5a7877006fbd235.json",
+					"name" : "appAzureNexus_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appAzureNexus_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appAzureNexus_qmllint-Debug-a882c212d0c41f96534e.json",
+					"name" : "appAzureNexus_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appAzureNexus_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appAzureNexus_qmllint_json-Debug-19a24f92e6c857cac3f5.json",
+					"name" : "appAzureNexus_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appAzureNexus_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appAzureNexus_qmllint_module-Debug-3595e234f10425ea687c.json",
+					"name" : "appAzureNexus_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appAzureNexus_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appAzureNexus_qmltyperegistration-Debug-8f0a563982c8dddc8a7c.json",
+					"name" : "appAzureNexus_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appAzureNexus_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appAzureNexus_tooling-Debug-bc5b5786ce85cd5c061d.json",
+					"name" : "appAzureNexus_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug",
+		"source" : "/home/azure/AzureNexus"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

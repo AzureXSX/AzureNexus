@@ -2,8 +2,11 @@
   /home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/appAzureNexus_autogen/moc_predefs.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QBuffer \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QDateTime \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QDebug \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QEvent \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QFile \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QList \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QMargins \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QObject \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QRect \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QSize \
@@ -141,9 +144,12 @@
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/QPixmap \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/QScreen \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/QTransform \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qbitmap.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qcolor.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qcursor.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qguiapplication.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qguiapplication_platform.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qicon.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qimage.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qinputmethod.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qpaintdevice.h \
@@ -155,11 +161,21 @@
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qrgba64.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qscreen.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qscreen_platform.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qsurface.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qsurfaceformat.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qtgui-config.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qtguiexports.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qtguiglobal.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qtransform.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qwindow.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qwindowdefs.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/QMediaCaptureSession \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/QScreenCapture \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qmediacapturesession.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qscreencapture.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qtmultimedia-config.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qtmultimediaexports.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qtmultimediaglobal.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
