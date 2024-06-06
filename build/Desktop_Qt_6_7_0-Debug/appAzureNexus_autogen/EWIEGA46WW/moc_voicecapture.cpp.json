@@ -1,0 +1,29 @@
+{
+    "classes": [
+        {
+            "className": "VoiceCapture",
+            "methods": [
+                {
+                    "access": "public",
+                    "name": "start",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "stop",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "VoiceCapture",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "voicecapture.h",
+    "outputRevision": 68
+}

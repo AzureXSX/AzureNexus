@@ -12,6 +12,8 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/AzureNexus/quicclient.h \
 	/home/azure/AzureNexus/screencapture.cpp \
 	/home/azure/AzureNexus/screencapture.h \
+	/home/azure/AzureNexus/voicecapture.cpp \
+	/home/azure/AzureNexus/voicecapture.h \
 	/home/azure/MsQuic/include/msquic.h \
 	/home/azure/MsQuic/include/msquic_posix.h \
 	/home/azure/MsQuic/include/quic_sal_stub.h \
@@ -26,6 +28,7 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QRect \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QSize \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QSizeF \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QUrl \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/q20functional.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/q20memory.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/q20type_traits.h \
@@ -65,11 +68,14 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qdatetime.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qdeadlinetimer.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qdebug.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qdir.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qelapsedtimer.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qendian.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qeventloop.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qexceptionhandling.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qfile.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qfiledevice.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qfileinfo.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qflags.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qfloat16.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qforeach.h \
@@ -94,6 +100,7 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qmargins.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qmath.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qmetacontainer.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qmetaobject.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qmetatype.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qminmax.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qnamespace.h \
@@ -140,6 +147,7 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtdeprecationmarkers.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtenvironmentvariables.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtextstream.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtimezone.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtmetamacros.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtnoop.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtpreprocessorsupport.h \
@@ -150,6 +158,7 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtversionchecks.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtypeinfo.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtypes.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qurl.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qutf8stringview.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qvariant.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qvarlengtharray.h \
@@ -159,15 +168,22 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/QPixmap \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/QScreen \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/QTransform \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qaction.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qbitmap.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qbrush.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qcolor.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qcursor.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qfont.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qfontinfo.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qfontmetrics.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qguiapplication.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qguiapplication_platform.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qicon.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qimage.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qinputmethod.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qkeysequence.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qpaintdevice.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qpalette.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qpixelformat.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qpixmap.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qpolygon.h \
@@ -184,13 +200,36 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qtransform.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qwindow.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qwindowdefs.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/QAudioDevice \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/QAudioInput \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/QMediaCaptureSession \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/QMediaDevices \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/QMediaFormat \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/QMediaRecorder \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/QScreenCapture \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qaudio.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qaudiodevice.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qaudioformat.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qaudioinput.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qmediacapturesession.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qmediadevices.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qmediaenumdebug.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qmediaformat.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qmediametadata.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qmediarecorder.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qscreencapture.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qtaudio.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qtmultimedia-config.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qtmultimediaexports.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qtmultimediaglobal.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtWidgets/QFileDialog \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtWidgets/qdialog.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtWidgets/qfiledialog.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtWidgets/qsizepolicy.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtWidgets/qtwidgets-config.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtWidgets/qtwidgetsexports.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtWidgets/qwidget.h \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake \

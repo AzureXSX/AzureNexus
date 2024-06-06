@@ -5,6 +5,7 @@
 
 #include "quicclient.h"
 #include "screencapture.h"
+#include "voicecapture.h"
 
 int main(int argc, char *argv[])
 {
@@ -16,11 +17,13 @@ int main(int argc, char *argv[])
 
     QuicClient quicClient(host, udpPort, cert, key);
     ScreenCapture screenCapture(0,0);
+    VoiceCapture* voiceCapture = new VoiceCapture();
 
     QQmlApplicationEngine engine;
 
     engine.rootContext()->setContextProperty("quicClient", &quicClient);
     engine.rootContext()->setContextProperty("screenCapture", &screenCapture);
+    engine.rootContext()->setContextProperty("voiceCapture", voiceCapture);
 
     const QUrl url(QStringLiteral("qrc:/AzureNexus/main.qml"));
     QObject::connect(

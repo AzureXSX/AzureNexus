@@ -13,7 +13,12 @@ Window {
         color: "white"
     }
     Button{
-        text: "uwu"
-        onClicked: screenCapture.takeScreenShot()
+        text: "start"
+        onClicked: voiceCapture.start()
+    }
+    Button{
+        text: "stop"
+        onClicked: voiceCapture.stop()
+        x: 300
     }
 }
