@@ -1716,6 +1716,153 @@
 		},
 		{
 			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorIviapplicationConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorIviapplicationTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorIviapplicationTargets-relwithdebinfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorIviapplicationAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorPresentationTimeConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorPresentationTimeTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorPresentationTimeTargets-relwithdebinfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorPresentationTimeAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorQtShellConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorQtShellTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorQtShellTargets-relwithdebinfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorQtShellAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorWLShellConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorWLShellTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorWLShellTargets-relwithdebinfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorWLShellAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorXdgShellConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorXdgShellTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorXdgShellTargets-relwithdebinfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorXdgShellAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandTextureSharingConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandTextureSharingTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandTextureSharingTargets-relwithdebinfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandTextureSharingAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandTextureSharingExtensionConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandTextureSharingExtensionTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandTextureSharingExtensionTargets-relwithdebinfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandTextureSharingExtensionAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
 			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6effectspluginConfig.cmake"
 		},
 		{
@@ -2682,6 +2829,27 @@
 		},
 		{
 			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qwaylandcompositorpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qwaylandcompositorpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qwaylandcompositorpluginTargets-relwithdebinfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qwaylandcompositorpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
 			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6sharedimagepluginConfig.cmake"
 		},
 		{
@@ -2737,6 +2905,34 @@
 		{
 			"isExternal" : true,
 			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickTestpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorIviapplicationConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorPresentationTimeConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorQtShellConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorWLShellConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorXdgShellConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandTextureSharingConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandTextureSharingExtensionConfig.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2921,6 +3117,10 @@
 		{
 			"isExternal" : true,
 			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickwindowConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qwaylandcompositorpluginConfig.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -3640,6 +3840,431 @@
 		{
 			"isExternal" : true,
 			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/Qt6Config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/QtFeature.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6WaylandCompositorConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6WaylandCompositorConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6WaylandCompositorConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6WaylandCompositorDependencies.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules/FindWayland.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules/ECMFindModuleHelpersStub.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/modules/ECMFindModuleHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/FeatureSummary.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsDependencies.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules/FindWaylandScanner.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules/ECMFindModuleHelpersStub.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/modules/ECMFindModuleHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/FeatureSummary.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsTargets-relwithdebinfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsVersionlessTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandGlobalPrivate/Qt6WaylandGlobalPrivateConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandGlobalPrivate/Qt6WaylandGlobalPrivateConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandGlobalPrivate/Qt6WaylandGlobalPrivateConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandGlobalPrivate/Qt6WaylandGlobalPrivateTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandGlobalPrivate/Qt6WaylandGlobalPrivateAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandGlobalPrivate/Qt6WaylandGlobalPrivateVersionlessTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6WaylandCompositorTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6WaylandCompositorTargets-relwithdebinfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6WaylandCompositorAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6WaylandCompositorVersionlessTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6WaylandCompositorMacros.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6WaylandCompositorPlugins.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6DmaBufServerBufferIntegrationPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6DmaBufServerBufferIntegrationPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6DmaBufServerBufferIntegrationPluginTargets-relwithdebinfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6DmaBufServerBufferIntegrationPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6DrmEglServerBufferIntegrationPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6DrmEglServerBufferIntegrationPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6DrmEglServerBufferIntegrationPluginTargets-relwithdebinfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6DrmEglServerBufferIntegrationPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6QWaylandDmabufClientBufferIntegrationPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6QWaylandDmabufClientBufferIntegrationPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6QWaylandDmabufClientBufferIntegrationPluginTargets-relwithdebinfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6QWaylandDmabufClientBufferIntegrationPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6QWaylandEglClientBufferIntegrationPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6QWaylandEglClientBufferIntegrationPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6QWaylandEglClientBufferIntegrationPluginTargets-relwithdebinfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6QWaylandEglClientBufferIntegrationPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6QWaylandEglStreamClientBufferIntegrationPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6QWaylandEglStreamClientBufferIntegrationPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6QWaylandEglStreamClientBufferIntegrationPluginTargets-relwithdebinfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6QWaylandEglStreamClientBufferIntegrationPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6ShmServerBufferIntegrationPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6ShmServerBufferIntegrationPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6ShmServerBufferIntegrationPluginTargets-relwithdebinfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6ShmServerBufferIntegrationPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6VulkanServerBufferIntegrationPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6VulkanServerBufferIntegrationPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6VulkanServerBufferIntegrationPluginTargets-relwithdebinfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6VulkanServerBufferIntegrationPluginAdditionalTargetInfo.cmake"
 		},
 		{
 			"isExternal" : true,

@@ -60,11 +60,12 @@
 			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkVersionlessTargets.cmake",
 			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake",
 			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlDependencies.cmake",
-			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake",
-			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
+			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake",
+			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
 			"/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/FindOpenGL.cmake",
 			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake",
 			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake",
+			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
 			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:743:EVAL"
 		],
 		"nodes" : 
@@ -75,7 +76,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 12,
+				"line" : 14,
 				"parent" : 0
 			},
 			{
@@ -99,13 +100,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 50,
+				"line" : 53,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 38,
+				"line" : 40,
 				"parent" : 0
 			},
 			{
@@ -147,7 +148,7 @@
 			{
 				"command" : 10,
 				"file" : 1,
-				"line" : 16,
+				"line" : 18,
 				"parent" : 0
 			},
 			{
@@ -291,6 +292,48 @@
 				"parent" : 39
 			},
 			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"file" : 4,
+				"parent" : 41
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 169,
+				"parent" : 42
+			},
+			{
+				"file" : 17,
+				"parent" : 43
+			},
+			{
+				"command" : 7,
+				"file" : 17,
+				"line" : 55,
+				"parent" : 44
+			},
+			{
+				"file" : 16,
+				"parent" : 45
+			},
+			{
+				"command" : 6,
+				"file" : 16,
+				"line" : 61,
+				"parent" : 46
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 576,
+				"parent" : 2
+			},
+			{
 				"command" : 11,
 				"file" : 9,
 				"line" : 111,
@@ -300,87 +343,65 @@
 				"command" : 8,
 				"file" : 8,
 				"line" : 76,
-				"parent" : 41
+				"parent" : 49
 			},
 			{
-				"file" : 17,
-				"parent" : 42
-			},
-			{
-				"command" : 7,
-				"file" : 17,
-				"line" : 60,
-				"parent" : 43
-			},
-			{
-				"file" : 16,
-				"parent" : 44
-			},
-			{
-				"command" : 6,
-				"file" : 16,
-				"line" : 61,
-				"parent" : 45
-			},
-			{
-				"command" : 5,
-				"file" : 0,
-				"line" : 576,
-				"parent" : 2
+				"file" : 21,
+				"parent" : 50
 			},
 			{
 				"command" : 7,
-				"file" : 17,
+				"file" : 21,
 				"line" : 43,
-				"parent" : 43
+				"parent" : 51
 			},
 			{
 				"file" : 20,
-				"parent" : 48
+				"parent" : 52
 			},
 			{
 				"command" : 14,
 				"file" : 20,
 				"line" : 33,
-				"parent" : 49
+				"parent" : 53
 			},
 			{
 				"command" : 11,
 				"file" : 9,
 				"line" : 36,
-				"parent" : 50
+				"parent" : 54
 			},
 			{
 				"command" : 8,
 				"file" : 8,
 				"line" : 76,
-				"parent" : 51
+				"parent" : 55
 			},
 			{
 				"file" : 19,
-				"parent" : 52
+				"parent" : 56
 			},
 			{
 				"command" : 8,
 				"file" : 19,
 				"line" : 13,
-				"parent" : 53
+				"parent" : 57
 			},
 			{
 				"file" : 18,
-				"parent" : 54
+				"parent" : 58
 			},
 			{
 				"command" : 13,
 				"file" : 18,
 				"line" : 682,
-				"parent" : 55
+				"parent" : 59
 			},
 			{
 				"command" : 6,
 				"file" : 18,
 				"line" : 680,
-				"parent" : 55
+				"parent" : 59
 			},
 			{
 				"command" : 16,
@@ -392,7 +413,7 @@
 				"command" : 15,
 				"file" : 5,
 				"line" : 2747,
-				"parent" : 58
+				"parent" : 62
 			},
 			{
 				"file" : 1,
@@ -401,39 +422,39 @@
 			},
 			{
 				"command" : 21,
-				"file" : 21,
+				"file" : 22,
 				"line" : 1,
-				"parent" : 60
+				"parent" : 64
 			},
 			{
 				"command" : 20,
 				"file" : 0,
 				"line" : 774,
-				"parent" : 61
+				"parent" : 65
 			},
 			{
 				"command" : 19,
 				"file" : 0,
 				"line" : 678,
-				"parent" : 62
+				"parent" : 66
 			},
 			{
 				"command" : 18,
 				"file" : 0,
 				"line" : 678,
-				"parent" : 63
+				"parent" : 67
 			},
 			{
 				"command" : 17,
 				"file" : 5,
 				"line" : 3541,
-				"parent" : 64
+				"parent" : 68
 			},
 			{
 				"command" : 15,
 				"file" : 5,
 				"line" : 3346,
-				"parent" : 65
+				"parent" : 69
 			},
 			{
 				"command" : 23,
@@ -445,31 +466,31 @@
 				"command" : 22,
 				"file" : 5,
 				"line" : 3074,
-				"parent" : 67
+				"parent" : 71
 			},
 			{
 				"command" : 22,
 				"file" : 5,
 				"line" : 3099,
-				"parent" : 67
+				"parent" : 71
 			},
 			{
 				"command" : 25,
 				"file" : 5,
 				"line" : 2899,
-				"parent" : 67
+				"parent" : 71
 			},
 			{
 				"command" : 24,
 				"file" : 0,
 				"line" : 1415,
-				"parent" : 70
+				"parent" : 74
 			},
 			{
 				"command" : 24,
 				"file" : 5,
 				"line" : 3065,
-				"parent" : 67
+				"parent" : 71
 			},
 			{
 				"command" : 28,
@@ -481,19 +502,19 @@
 				"command" : 27,
 				"file" : 0,
 				"line" : 337,
-				"parent" : 73
+				"parent" : 77
 			},
 			{
 				"command" : 26,
 				"file" : 0,
 				"line" : 2390,
-				"parent" : 74
+				"parent" : 78
 			},
 			{
 				"command" : 24,
 				"file" : 0,
 				"line" : 2004,
-				"parent" : 75
+				"parent" : 79
 			},
 			{
 				"command" : 24,
@@ -505,61 +526,61 @@
 				"command" : 24,
 				"file" : 5,
 				"line" : 2531,
-				"parent" : 58
+				"parent" : 62
 			},
 			{
 				"command" : 29,
 				"file" : 5,
 				"line" : 2635,
-				"parent" : 58
+				"parent" : 62
 			},
 			{
 				"command" : 24,
 				"file" : 5,
 				"line" : 1244,
-				"parent" : 79
+				"parent" : 83
 			},
 			{
 				"command" : 24,
 				"file" : 5,
 				"line" : 2683,
-				"parent" : 58
+				"parent" : 62
 			},
 			{
 				"command" : 28,
 				"file" : 5,
 				"line" : 2766,
-				"parent" : 58
+				"parent" : 62
 			},
 			{
 				"command" : 27,
 				"file" : 0,
 				"line" : 337,
-				"parent" : 82
+				"parent" : 86
 			},
 			{
 				"command" : 26,
 				"file" : 0,
 				"line" : 2390,
-				"parent" : 83
+				"parent" : 87
 			},
 			{
 				"command" : 24,
 				"file" : 0,
 				"line" : 2004,
-				"parent" : 84
+				"parent" : 88
 			},
 			{
 				"command" : 30,
 				"file" : 0,
 				"line" : 768,
-				"parent" : 61
+				"parent" : 65
 			},
 			{
 				"command" : 24,
 				"file" : 0,
 				"line" : 2117,
-				"parent" : 86
+				"parent" : 90
 			}
 		]
 	},
@@ -572,14 +593,14 @@
 					"fragment" : "-DQT_QML_DEBUG -g -fcolor-diagnostics"
 				},
 				{
-					"backtrace" : 47,
+					"backtrace" : 48,
 					"fragment" : "-fPIC"
 				}
 			],
 			"defines" : 
 			[
 				{
-					"backtrace" : 47,
+					"backtrace" : 48,
 					"define" : "QT_CORE_LIB"
 				},
 				{
@@ -617,6 +638,10 @@
 				{
 					"backtrace" : 6,
 					"define" : "QT_QUICK_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_WIDGETS_LIB"
 				}
 			],
 			"includes" : 
@@ -626,71 +651,71 @@
 					"path" : "/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/appAzureNexus_autogen/include"
 				},
 				{
-					"backtrace" : 68,
+					"backtrace" : 72,
 					"path" : "/home/azure/AzureNexus"
 				},
 				{
-					"backtrace" : 69,
+					"backtrace" : 73,
 					"isSystem" : true,
 					"path" : "/home/azure/Qt/6.7.1/gcc_64/include/QtQml/6.7.1"
 				},
 				{
-					"backtrace" : 69,
+					"backtrace" : 73,
 					"isSystem" : true,
 					"path" : "/home/azure/Qt/6.7.1/gcc_64/include/QtQml/6.7.1/QtQml"
 				},
 				{
-					"backtrace" : 69,
+					"backtrace" : 73,
 					"isSystem" : true,
 					"path" : "/home/azure/Qt/6.7.1/gcc_64/include/QtCore/6.7.1"
 				},
 				{
-					"backtrace" : 69,
+					"backtrace" : 73,
 					"isSystem" : true,
 					"path" : "/home/azure/Qt/6.7.1/gcc_64/include/QtCore/6.7.1/QtCore"
 				},
 				{
-					"backtrace" : 69,
+					"backtrace" : 73,
 					"isSystem" : true,
 					"path" : "/home/azure/Qt/6.7.1/gcc_64/include/QtCore"
 				},
 				{
-					"backtrace" : 69,
+					"backtrace" : 73,
 					"isSystem" : true,
 					"path" : "/home/azure/Qt/6.7.1/gcc_64/include"
 				},
 				{
-					"backtrace" : 69,
+					"backtrace" : 73,
 					"isSystem" : true,
 					"path" : "/home/azure/Qt/6.7.1/gcc_64/mkspecs/linux-g++"
 				},
 				{
-					"backtrace" : 69,
+					"backtrace" : 73,
 					"isSystem" : true,
 					"path" : "/home/azure/Qt/6.7.1/gcc_64/include/QtQmlBuiltins/6.7.1"
 				},
 				{
-					"backtrace" : 69,
+					"backtrace" : 73,
 					"isSystem" : true,
 					"path" : "/home/azure/Qt/6.7.1/gcc_64/include/QtQmlBuiltins/6.7.1/QtQmlBuiltins"
 				},
 				{
-					"backtrace" : 69,
+					"backtrace" : 73,
 					"isSystem" : true,
 					"path" : "/home/azure/Qt/6.7.1/gcc_64/include/QtQmlBuiltins"
 				},
 				{
-					"backtrace" : 69,
+					"backtrace" : 73,
 					"isSystem" : true,
 					"path" : "/home/azure/Qt/6.7.1/gcc_64/include/QtQml"
 				},
 				{
-					"backtrace" : 69,
+					"backtrace" : 73,
 					"isSystem" : true,
 					"path" : "/home/azure/Qt/6.7.1/gcc_64/include/QtQmlIntegration"
 				},
 				{
-					"backtrace" : 69,
+					"backtrace" : 73,
 					"isSystem" : true,
 					"path" : "/home/azure/Qt/6.7.1/gcc_64/include/QtNetwork"
 				},
@@ -718,6 +743,11 @@
 					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/azure/Qt/6.7.1/gcc_64/include/QtWidgets"
 				}
 			],
 			"language" : "CXX",
@@ -740,11 +770,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 59,
+			"backtrace" : 63,
 			"id" : "appAzureNexus_tooling::@6890427a1f51a3e7e1df"
 		},
 		{
-			"backtrace" : 66,
+			"backtrace" : 70,
 			"id" : "appAzureNexus_qmlimportscan::@6890427a1f51a3e7e1df"
 		},
 		{
@@ -794,6 +824,11 @@
 			{
 				"backtrace" : 6,
 				"fragment" : "/home/azure/Qt/6.7.1/gcc_64/lib/libQt6Multimedia.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/azure/Qt/6.7.1/gcc_64/lib/libQt6Widgets.so.6.7.1",
 				"role" : "libraries"
 			},
 			{
@@ -852,22 +887,22 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 46,
+				"backtrace" : 47,
 				"fragment" : "/home/azure/Qt/6.7.1/gcc_64/lib/libQt6Gui.so.6.7.1",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 47,
+				"backtrace" : 48,
 				"fragment" : "/home/azure/Qt/6.7.1/gcc_64/lib/libQt6Core.so.6.7.1",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 56,
+				"backtrace" : 60,
 				"fragment" : "/usr/lib/libGLX.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 57,
+				"backtrace" : 61,
 				"fragment" : "/usr/lib/libOpenGL.so",
 				"role" : "libraries"
 			}
@@ -918,7 +953,8 @@
 				34,
 				35,
 				36,
-				37
+				37,
+				38
 			]
 		},
 		{
@@ -962,109 +998,109 @@
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 71,
+			"backtrace" : 75,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/meta_types/qt6appazurenexus_debug_metatypes.json.gen",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 72,
+			"backtrace" : 76,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/appazurenexus_qmltyperegistrations.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 76,
+			"backtrace" : 80,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/.qt/rcc/qrc_qmake_AzureNexus.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 77,
+			"backtrace" : 81,
 			"path" : "quicclient.h",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 77,
+			"backtrace" : 81,
 			"compileGroupIndex" : 0,
 			"path" : "quicclient.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 77,
+			"backtrace" : 81,
 			"path" : "appAzureNexus/proto/test.pb.h",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 77,
+			"backtrace" : 81,
 			"compileGroupIndex" : 0,
 			"path" : "appAzureNexus/proto/test.pb.cc",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 77,
+			"backtrace" : 81,
 			"path" : "screencapture.h",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 77,
+			"backtrace" : 81,
 			"compileGroupIndex" : 0,
 			"path" : "screencapture.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 77,
+			"backtrace" : 81,
 			"path" : "voicecapture.h",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 77,
+			"backtrace" : 81,
 			"compileGroupIndex" : 0,
 			"path" : "voicecapture.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 78,
+			"backtrace" : 82,
 			"path" : "main.qml",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 80,
+			"backtrace" : 84,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/.rcc/qmlcache/appAzureNexus_qmlcache_loader.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 81,
+			"backtrace" : 85,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/.rcc/qmlcache/appAzureNexus_main_qml.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 85,
+			"backtrace" : 89,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/.qt/rcc/qrc_appAzureNexus_raw_qml_0.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 87,
+			"backtrace" : 91,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/.qt/rcc/qmake_AzureNexus.qrc",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 87,
+			"backtrace" : 91,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/AzureNexus/qmldir",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 87,
+			"backtrace" : 91,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/.qt/rcc/appAzureNexus_raw_qml_0.qrc",
 			"sourceGroupIndex" : 1
@@ -1124,7 +1160,7 @@
 			"sourceGroupIndex" : 3
 		},
 		{
-			"backtrace" : 47,
+			"backtrace" : 48,
 			"path" : "/home/azure/Qt/6.7.1/gcc_64/metatypes/qt6core_relwithdebinfo_metatypes.json",
 			"sourceGroupIndex" : 1
 		},
@@ -1166,6 +1202,11 @@
 		{
 			"backtrace" : 6,
 			"path" : "/home/azure/Qt/6.7.1/gcc_64/metatypes/qt6multimedia_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/azure/Qt/6.7.1/gcc_64/metatypes/qt6widgets_relwithdebinfo_metatypes.json",
 			"sourceGroupIndex" : 1
 		}
 	],

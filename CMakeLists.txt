@@ -8,6 +8,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(Qt6 6.7 COMPONENTS Quick REQUIRED)
 find_package(Qt6 REQUIRED COMPONENTS Widgets Multimedia)
 find_package(Qt6 REQUIRED COMPONENTS Widgets)
+find_package(Qt6 REQUIRED COMPONENTS WaylandCompositor)
+
 
 qt_add_executable(appAzureNexus
     main.cpp
@@ -39,6 +41,7 @@ target_link_libraries(appAzureNexus PRIVATE
     Qt6::Quick
     Qt6::Multimedia
     Qt6::Widgets
+    Qt6::WaylandCompositor
     ${CMAKE_CURRENT_SOURCE_DIR}/appAzureNexus/MsQuic/bin/libmsquic.so
     protobuf
     absl_log_internal_check_op

@@ -10,6 +10,7 @@
 #include <QScreenCapture>
 #include <QMediaCaptureSession>
 #include <QDebug>
+#include <QWaylandSurfaceGrabber>
 
 class ScreenCapture : public QObject
 {
