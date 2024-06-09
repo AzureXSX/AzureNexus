@@ -9,8 +9,6 @@ WaylandScreenCapture::WaylandScreenCapture() {}
 
 Q_INVOKABLE void WaylandScreenCapture::init() {
     qDebug() << "Initializing Wayland Screen Capture";
-
-    // Check the WAYLAND_DISPLAY environment variable
     QByteArray waylandDisplay = qgetenv("WAYLAND_DISPLAY");
     if (waylandDisplay.isEmpty()) {
         qWarning() << "WAYLAND_DISPLAY is not set. Unable to connect to Wayland display.";
@@ -19,7 +17,6 @@ Q_INVOKABLE void WaylandScreenCapture::init() {
 
     qDebug() << "Connecting to Wayland display:" << waylandDisplay;
 
-    // Check the DESKTOP_SESSION and XDG_SESSION_DESKTOP environment variables
     QByteArray desktopSession = qgetenv("DESKTOP_SESSION");
     QByteArray xdgSessionDesktop = qgetenv("XDG_SESSION_DESKTOP");
 
@@ -33,10 +30,8 @@ Q_INVOKABLE void WaylandScreenCapture::init() {
 
     QString compositor;
 
-    // Potential common compositors, including Hyprland
     QStringList knownCompositors = {"weston", "kwin_wayland", "sway", "gnome-shell", "compton", "mutter", "hyprland"};
 
-    // Get the list of all running processes
     QProcess process;
     process.start("ps", QStringList() << "-e" << "-o" << "comm=");
     process.waitForFinished();
