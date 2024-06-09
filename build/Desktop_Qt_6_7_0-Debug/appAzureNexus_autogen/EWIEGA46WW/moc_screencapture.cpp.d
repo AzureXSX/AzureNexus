@@ -6,11 +6,18 @@
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QEvent \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QFile \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QList \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QLoggingCategory \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QMap \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QMargins \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QObject \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QPointF \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QRect \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QScopedPointer \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QSize \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QSizeF \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QString \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QVariant \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QVariantMap \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/q20functional.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/q20memory.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/q20type_traits.h \
@@ -74,11 +81,13 @@
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qlist.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qlocale.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qlogging.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qloggingcategory.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qmalloc.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qmap.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qmargins.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qmath.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qmetacontainer.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qmetaobject.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qmetatype.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qminmax.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qnamespace.h \
@@ -91,6 +100,7 @@
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qoverload.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qpair.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qpoint.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qpointer.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qprocessordetection.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qrect.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qrefcount.h \
@@ -134,16 +144,22 @@
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtversion.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtversionchecks.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtypeinfo.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtyperevision.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtypes.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qurl.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qutf8stringview.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qvariant.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qvariantmap.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qvarlengtharray.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qversionnumber.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qversiontagging.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qxptype_traits.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qyieldcpu.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/QImage \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/QPixmap \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/QScreen \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/QTransform \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/QWindow \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qbitmap.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qcolor.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qcursor.h \
@@ -176,6 +192,39 @@
   /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qtmultimedia-config.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qtmultimediaexports.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qtmultimediaglobal.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtNetwork/qtnetwork-config.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtNetwork/qtnetworkexports.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtNetwork/qtnetworkglobal.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtQml/qjsnumbercoercion.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtQml/qjsprimitivevalue.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtQml/qjsvalue.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqml.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmllist.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmlparserstatus.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmlprivate.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmlpropertyvaluesource.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmlregistration.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtQml/qtqml-config.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtQml/qtqmlexports.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtQml/qtqmlglobal.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtQmlIntegration/qqmlintegration.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/QWaylandClient \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/QWaylandOutput \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/QWaylandOutputMode \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/QWaylandSurface \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/QWaylandSurfaceGrabber \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/qtwaylandcompositor-config.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/qtwaylandcompositorexports.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/qtwaylandcompositorglobal.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/qtwaylandqmlinclude.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/qwaylandclient.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/qwaylandcompositor.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/qwaylandcompositorextension.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/qwaylanddrag.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/qwaylandoutput.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/qwaylandoutputmode.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/qwaylandsurface.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/qwaylandsurfacegrabber.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -183,24 +232,42 @@
   /usr/include/assert.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
   /usr/include/bits/posix1_lim.h \
   /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
   /usr/include/bits/sched.h \
   /usr/include/bits/select.h \
   /usr/include/bits/setjmp.h \
+  /usr/include/bits/sigaction.h \
+  /usr/include/bits/sigcontext.h \
+  /usr/include/bits/sigevent-consts.h \
+  /usr/include/bits/siginfo-arch.h \
+  /usr/include/bits/siginfo-consts-arch.h \
+  /usr/include/bits/siginfo-consts.h \
+  /usr/include/bits/signal_ext.h \
+  /usr/include/bits/signum-arch.h \
+  /usr/include/bits/signum-generic.h \
+  /usr/include/bits/sigstack.h \
+  /usr/include/bits/sigstksz.h \
+  /usr/include/bits/sigthread.h \
+  /usr/include/bits/ss_flags.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-least.h \
   /usr/include/bits/stdint-uintn.h \
@@ -221,17 +288,24 @@
   /usr/include/bits/types/__locale_t.h \
   /usr/include/bits/types/__mbstate_t.h \
   /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/__sigval_t.h \
   /usr/include/bits/types/clock_t.h \
   /usr/include/bits/types/clockid_t.h \
   /usr/include/bits/types/cookie_io_functions_t.h \
   /usr/include/bits/types/error_t.h \
   /usr/include/bits/types/locale_t.h \
   /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/sig_atomic_t.h \
+  /usr/include/bits/types/sigevent_t.h \
+  /usr/include/bits/types/siginfo_t.h \
   /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/sigval_t.h \
+  /usr/include/bits/types/stack_t.h \
   /usr/include/bits/types/struct_FILE.h \
   /usr/include/bits/types/struct___jmp_buf_tag.h \
   /usr/include/bits/types/struct_itimerspec.h \
   /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/types/struct_sigstack.h \
   /usr/include/bits/types/struct_timespec.h \
   /usr/include/bits/types/struct_timeval.h \
   /usr/include/bits/types/struct_tm.h \
@@ -241,6 +315,7 @@
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
   /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
@@ -423,6 +498,7 @@
   /usr/include/locale.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
+  /usr/include/signal.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
   /usr/include/stdio.h \
@@ -432,7 +508,9 @@
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/types.h \
+  /usr/include/sys/ucontext.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/lib/clang/17/include/__stddef_max_align_t.h \
   /usr/lib/clang/17/include/stdarg.h \

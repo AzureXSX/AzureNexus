@@ -2,7 +2,7 @@
 
 ScreenCapture::ScreenCapture() {}
 
-ScreenCapture::ScreenCapture(int, int) {
+ScreenCapture::~ScreenCapture(){
 
 }
 
@@ -22,26 +22,7 @@ bool saveScreenshot(const QPixmap &pixmap, const QString &filename) {
 }
 
 Q_INVOKABLE void ScreenCapture::takeScreenShot(){
-    QScreen *screen = QGuiApplication::primaryScreen();
-    if (!screen) {
-        qWarning() << "No primary screen found.";
-        return;
-    }
+    compositor = new QWaylandCompositor();
 
-    qDebug() << "Screen name: " << screen->name() << "\n";
-    qDebug() << "Resolution: " << screen->geometry().width() << "x" << screen->geometry().height() << "\n";
-
-    // Grab the window under the cursor
-    QPixmap screenshot = screen->grabWindow(0);
-
-    if (!screenshot.isNull()) {
-        QString filename = QString("screenshot_%1.png").arg(QDateTime::currentDateTime().toString("yyyyMMdd_HHmmss"));
-        if (saveScreenshot(screenshot, filename)) {
-            qDebug() << "Screenshot saved to" << filename;
-        } else {
-            qWarning() << "Failed to save screenshot.";
-        }
-    } else {
-        qWarning() << "Failed to capture screenshot.";
-    }
+    compositor->create();
 }

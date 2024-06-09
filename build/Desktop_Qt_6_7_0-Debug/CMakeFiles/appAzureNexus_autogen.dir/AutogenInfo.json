@@ -1056,6 +1056,12 @@
 			"Mu",
 			"EWIEGA46WW/moc_voicecapture.cpp",
 			null
+		],
+		[
+			"/home/azure/AzureNexus/waylandscreencpature.h",
+			"Mu",
+			"EWIEGA46WW/moc_waylandscreencpature.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -1156,7 +1162,8 @@
 		[ "/home/azure/AzureNexus/main.cpp", "Mu", null ],
 		[ "/home/azure/AzureNexus/quicclient.cpp", "Mu", null ],
 		[ "/home/azure/AzureNexus/screencapture.cpp", "Mu", null ],
-		[ "/home/azure/AzureNexus/voicecapture.cpp", "Mu", null ]
+		[ "/home/azure/AzureNexus/voicecapture.cpp", "Mu", null ],
+		[ "/home/azure/AzureNexus/waylandscreencpature.cpp", "Mu", null ]
 	],
 	"VERBOSITY" : 0
 }

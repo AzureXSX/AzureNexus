@@ -1,5 +1,7 @@
 import QtQuick
 import QtQuick.Controls
+import QtWayland.Compositor
+
 Window {
     width: 640
     height: 480
@@ -14,11 +16,11 @@ Window {
     }
     Button{
         text: "start"
-        onClicked: voiceCapture.start()
+        onClicked: captureX.init()
     }
     Button{
         text: "stop"
-        onClicked: voiceCapture.stop()
+        onClicked: screenCapture.takeScreenShot()
         x: 300
     }
 }

@@ -11,6 +11,8 @@
 #include <QMediaCaptureSession>
 #include <QDebug>
 #include <QWaylandSurfaceGrabber>
+#include <QWaylandSurface>
+#include <QWaylandClient>
 
 class ScreenCapture : public QObject
 {
@@ -18,12 +20,10 @@ class ScreenCapture : public QObject
 public:
     explicit ScreenCapture(QObject *parent = nullptr);
     Q_INVOKABLE void takeScreenShot();
-    ScreenCapture(int width = 0, int height = 0);
     ScreenCapture();
     ~ScreenCapture();
 private:
-    QScreenCapture screenCapture;
-    QMediaCaptureSession captureSession;
+    QWaylandCompositor* compositor;
 };
 
 #endif // SCREENCAPTURE_H

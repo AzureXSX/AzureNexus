@@ -17,7 +17,7 @@ class VoiceCapture : public QObject
 {
     Q_OBJECT
 public:
-    explicit VoiceCapture(QObject* parent);
+    explicit VoiceCapture(QObject* parent = nullptr);
     Q_INVOKABLE void start();
     Q_INVOKABLE void stop();
     static void handleStateChanged(QAudio::State newState);

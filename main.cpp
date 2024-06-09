@@ -6,6 +6,7 @@
 #include "quicclient.h"
 #include "screencapture.h"
 #include "voicecapture.h"
+#include "waylandscreencpature.h"
 
 int main(int argc, char *argv[])
 {
@@ -16,14 +17,16 @@ int main(int argc, char *argv[])
     const char *key = "/home/azure/Documents/GitHub/Linux-x64-HTTP3/certs/server.key";
 
     QuicClient quicClient(host, udpPort, cert, key);
-    ScreenCapture screenCapture(0,0);
-    VoiceCapture* voiceCapture = new VoiceCapture();
+    ScreenCapture screenCapture(nullptr);
+    VoiceCapture voiceCapture(nullptr);
+    WaylandScreenCapture capture(nullptr);
 
     QQmlApplicationEngine engine;
 
     engine.rootContext()->setContextProperty("quicClient", &quicClient);
     engine.rootContext()->setContextProperty("screenCapture", &screenCapture);
-    engine.rootContext()->setContextProperty("voiceCapture", voiceCapture);
+    engine.rootContext()->setContextProperty("voiceCapture", &voiceCapture);
+    engine.rootContext()->setContextProperty("captureX", &capture);
 
     const QUrl url(QStringLiteral("qrc:/AzureNexus/main.qml"));
     QObject::connect(

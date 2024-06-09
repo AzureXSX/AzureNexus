@@ -1,0 +1,29 @@
+{
+    "classes": [
+        {
+            "className": "WaylandScreenCapture",
+            "methods": [
+                {
+                    "access": "public",
+                    "name": "init",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "takeScreenShot",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "WaylandScreenCapture",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWaylandCompositor"
+                }
+            ]
+        }
+    ],
+    "inputFile": "waylandscreencpature.h",
+    "outputRevision": 68
+}

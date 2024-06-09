@@ -14,6 +14,8 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/AzureNexus/screencapture.h \
 	/home/azure/AzureNexus/voicecapture.cpp \
 	/home/azure/AzureNexus/voicecapture.h \
+	/home/azure/AzureNexus/waylandscreencpature.cpp \
+	/home/azure/AzureNexus/waylandscreencpature.h \
 	/home/azure/MsQuic/include/msquic.h \
 	/home/azure/MsQuic/include/msquic_posix.h \
 	/home/azure/MsQuic/include/quic_sal_stub.h \
@@ -23,12 +25,21 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QEvent \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QFile \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QList \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QLoggingCategory \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QMap \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QMargins \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QObject \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QPointF \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QProcess \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QRect \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QScopedPointer \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QSize \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QSizeF \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QString \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QUrl \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QVariant \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QVariantMap \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/q20algorithm.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/q20functional.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/q20memory.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/q20type_traits.h \
@@ -49,6 +60,8 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qbytearraylist.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qbytearrayview.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qcalendar.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qcborcommon.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qcborvalue.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qchar.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qcompare.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qcompare_impl.h \
@@ -73,6 +86,7 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qendian.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qeventloop.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qexceptionhandling.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qfactoryinterface.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qfile.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qfiledevice.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qfileinfo.h \
@@ -90,11 +104,14 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qiodevicebase.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qiterable.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qiterator.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qjsonobject.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qjsonvalue.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qlatin1stringview.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qline.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qlist.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qlocale.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qlogging.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qloggingcategory.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qmalloc.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qmap.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qmargins.h \
@@ -112,10 +129,14 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qobjectdefs_impl.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qoverload.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qpair.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qplugin.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qpoint.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qpointer.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qprocess.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qprocessordetection.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qrect.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qrefcount.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qregularexpression.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qscopedpointer.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qscopeguard.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qset.h \
@@ -157,17 +178,24 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtversion.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtversionchecks.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtypeinfo.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtyperevision.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtypes.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qurl.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qutf8stringview.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/quuid.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qvariant.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qvariantmap.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qvarlengtharray.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qversionnumber.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qversiontagging.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qxptype_traits.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qyieldcpu.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/QImage \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/QImageWriter \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/QPixmap \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/QScreen \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/QTransform \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/QWindow \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qaction.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qbitmap.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qbrush.h \
@@ -180,6 +208,8 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qguiapplication_platform.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qicon.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qimage.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qimageiohandler.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qimagewriter.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qinputmethod.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qkeysequence.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qpaintdevice.h \
@@ -224,6 +254,43 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qtmultimedia-config.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qtmultimediaexports.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtMultimedia/qtmultimediaglobal.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtNetwork/qtnetwork-config.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtNetwork/qtnetworkexports.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtNetwork/qtnetworkglobal.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/QQmlParserStatus \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qjsnumbercoercion.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qjsprimitivevalue.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qjsvalue.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqml.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmllist.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmlparserstatus.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmlprivate.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmlpropertyvaluesource.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmlregistration.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qtqml-config.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qtqmlexports.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qtqmlglobal.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQmlIntegration/qqmlintegration.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/QWaylandClient \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/QWaylandCompositor \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/QWaylandOutput \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/QWaylandOutputMode \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/QWaylandQuickCompositor \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/QWaylandSurface \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/QWaylandSurfaceGrabber \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/qtwaylandcompositor-config.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/qtwaylandcompositorexports.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/qtwaylandcompositorglobal.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/qtwaylandqmlinclude.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/qwaylandclient.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/qwaylandcompositor.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/qwaylandcompositorextension.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/qwaylanddrag.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/qwaylandoutput.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/qwaylandoutputmode.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/qwaylandquickcompositor.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/qwaylandsurface.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtWaylandCompositor/qwaylandsurfacegrabber.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtWidgets/QFileDialog \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtWidgets/qdialog.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtWidgets/qfiledialog.h \
@@ -232,6 +299,10 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtWidgets/qtwidgetsexports.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtWidgets/qwidget.h \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules/ECMFindModuleHelpersStub.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules/FindWayland.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules/FindWaylandScanner.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/modules/ECMFindModuleHelpers.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake \
@@ -497,6 +568,34 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickTestpluginConfig.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickTestpluginTargets-relwithdebinfo.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickTestpluginTargets.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorIviapplicationAdditionalTargetInfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorIviapplicationConfig.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorIviapplicationTargets-relwithdebinfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorIviapplicationTargets.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorPresentationTimeAdditionalTargetInfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorPresentationTimeConfig.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorPresentationTimeTargets-relwithdebinfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorPresentationTimeTargets.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorQtShellAdditionalTargetInfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorQtShellConfig.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorQtShellTargets-relwithdebinfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorQtShellTargets.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorWLShellAdditionalTargetInfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorWLShellConfig.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorWLShellTargets-relwithdebinfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorWLShellTargets.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorXdgShellAdditionalTargetInfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorXdgShellConfig.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorXdgShellTargets-relwithdebinfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandCompositorXdgShellTargets.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandTextureSharingAdditionalTargetInfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandTextureSharingConfig.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandTextureSharingExtensionAdditionalTargetInfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandTextureSharingExtensionConfig.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandTextureSharingExtensionTargets-relwithdebinfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandTextureSharingExtensionTargets.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandTextureSharingTargets-relwithdebinfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6WaylandTextureSharingTargets.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6effectspluginAdditionalTargetInfo.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6effectspluginConfig.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6effectspluginTargets-relwithdebinfo.cmake \
@@ -681,6 +780,10 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickwindowConfig.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickwindowTargets-relwithdebinfo.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickwindowTargets.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qwaylandcompositorpluginAdditionalTargetInfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qwaylandcompositorpluginConfig.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qwaylandcompositorpluginTargets-relwithdebinfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qwaylandcompositorpluginTargets.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6sharedimagepluginAdditionalTargetInfo.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6sharedimagepluginConfig.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6sharedimagepluginTargets-relwithdebinfo.cmake \
@@ -797,6 +900,58 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets-relwithdebinfo.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsVersionlessTargets.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6DmaBufServerBufferIntegrationPluginAdditionalTargetInfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6DmaBufServerBufferIntegrationPluginConfig.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6DmaBufServerBufferIntegrationPluginTargets-relwithdebinfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6DmaBufServerBufferIntegrationPluginTargets.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6DrmEglServerBufferIntegrationPluginAdditionalTargetInfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6DrmEglServerBufferIntegrationPluginConfig.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6DrmEglServerBufferIntegrationPluginTargets-relwithdebinfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6DrmEglServerBufferIntegrationPluginTargets.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6QWaylandDmabufClientBufferIntegrationPluginAdditionalTargetInfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6QWaylandDmabufClientBufferIntegrationPluginConfig.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6QWaylandDmabufClientBufferIntegrationPluginTargets-relwithdebinfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6QWaylandDmabufClientBufferIntegrationPluginTargets.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6QWaylandEglClientBufferIntegrationPluginAdditionalTargetInfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6QWaylandEglClientBufferIntegrationPluginConfig.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6QWaylandEglClientBufferIntegrationPluginTargets-relwithdebinfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6QWaylandEglClientBufferIntegrationPluginTargets.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6QWaylandEglStreamClientBufferIntegrationPluginAdditionalTargetInfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6QWaylandEglStreamClientBufferIntegrationPluginConfig.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6QWaylandEglStreamClientBufferIntegrationPluginTargets-relwithdebinfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6QWaylandEglStreamClientBufferIntegrationPluginTargets.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6ShmServerBufferIntegrationPluginAdditionalTargetInfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6ShmServerBufferIntegrationPluginConfig.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6ShmServerBufferIntegrationPluginTargets-relwithdebinfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6ShmServerBufferIntegrationPluginTargets.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6VulkanServerBufferIntegrationPluginAdditionalTargetInfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6VulkanServerBufferIntegrationPluginConfig.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6VulkanServerBufferIntegrationPluginTargets-relwithdebinfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6VulkanServerBufferIntegrationPluginTargets.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6WaylandCompositorAdditionalTargetInfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6WaylandCompositorConfig.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6WaylandCompositorConfigVersion.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6WaylandCompositorConfigVersionImpl.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6WaylandCompositorDependencies.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6WaylandCompositorMacros.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6WaylandCompositorPlugins.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6WaylandCompositorTargets-relwithdebinfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6WaylandCompositorTargets.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6WaylandCompositorVersionlessTargets.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandGlobalPrivate/Qt6WaylandGlobalPrivateAdditionalTargetInfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandGlobalPrivate/Qt6WaylandGlobalPrivateConfig.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandGlobalPrivate/Qt6WaylandGlobalPrivateConfigVersion.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandGlobalPrivate/Qt6WaylandGlobalPrivateConfigVersionImpl.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandGlobalPrivate/Qt6WaylandGlobalPrivateTargets.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandGlobalPrivate/Qt6WaylandGlobalPrivateVersionlessTargets.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsAdditionalTargetInfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsConfig.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsConfigVersion.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsConfigVersionImpl.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsDependencies.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsTargets-relwithdebinfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsTargets.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandScannerTools/Qt6WaylandScannerToolsVersionlessTargets.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
@@ -983,9 +1138,22 @@ appAzureNexus_autogen/timestamp: \
 	/usr/include/bits/sched.h \
 	/usr/include/bits/select.h \
 	/usr/include/bits/setjmp.h \
+	/usr/include/bits/sigaction.h \
+	/usr/include/bits/sigcontext.h \
+	/usr/include/bits/sigevent-consts.h \
+	/usr/include/bits/siginfo-arch.h \
+	/usr/include/bits/siginfo-consts-arch.h \
+	/usr/include/bits/siginfo-consts.h \
+	/usr/include/bits/signal_ext.h \
+	/usr/include/bits/signum-arch.h \
+	/usr/include/bits/signum-generic.h \
+	/usr/include/bits/sigstack.h \
+	/usr/include/bits/sigstksz.h \
+	/usr/include/bits/sigthread.h \
 	/usr/include/bits/sockaddr.h \
 	/usr/include/bits/socket.h \
 	/usr/include/bits/socket_type.h \
+	/usr/include/bits/ss_flags.h \
 	/usr/include/bits/stat.h \
 	/usr/include/bits/statx-generic.h \
 	/usr/include/bits/statx.h \
@@ -1017,14 +1185,19 @@ appAzureNexus_autogen/timestamp: \
 	/usr/include/bits/types/error_t.h \
 	/usr/include/bits/types/locale_t.h \
 	/usr/include/bits/types/mbstate_t.h \
+	/usr/include/bits/types/sig_atomic_t.h \
 	/usr/include/bits/types/sigevent_t.h \
+	/usr/include/bits/types/siginfo_t.h \
 	/usr/include/bits/types/sigset_t.h \
+	/usr/include/bits/types/sigval_t.h \
+	/usr/include/bits/types/stack_t.h \
 	/usr/include/bits/types/struct_FILE.h \
 	/usr/include/bits/types/struct___jmp_buf_tag.h \
 	/usr/include/bits/types/struct_iovec.h \
 	/usr/include/bits/types/struct_itimerspec.h \
 	/usr/include/bits/types/struct_osockaddr.h \
 	/usr/include/bits/types/struct_sched_param.h \
+	/usr/include/bits/types/struct_sigstack.h \
 	/usr/include/bits/types/struct_statx.h \
 	/usr/include/bits/types/struct_statx_timestamp.h \
 	/usr/include/bits/types/struct_timespec.h \
@@ -1250,6 +1423,7 @@ appAzureNexus_autogen/timestamp: \
 	/usr/include/pthread.h \
 	/usr/include/rpc/netdb.h \
 	/usr/include/sched.h \
+	/usr/include/signal.h \
 	/usr/include/stdc-predef.h \
 	/usr/include/stdint.h \
 	/usr/include/stdio.h \
@@ -1262,6 +1436,7 @@ appAzureNexus_autogen/timestamp: \
 	/usr/include/sys/stat.h \
 	/usr/include/sys/time.h \
 	/usr/include/sys/types.h \
+	/usr/include/sys/ucontext.h \
 	/usr/include/time.h \
 	/usr/include/unistd.h \
 	/usr/include/wchar.h \
