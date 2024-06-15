@@ -47,13 +47,17 @@ ApplicationWindow {
                         clip: true
 
                         TextInput{
-                            anchors.fill: parent
+                            anchors {
+                                left: parent.left
+                                right: parent.right
+                            }
                             color: "black"
                             maximumLength: 120
-                            padding: 8 // Optional: Add some padding if needed
+                            padding: 8
+                            font.pixelSize: 16
+                            width: parent.width - 20
                         }
                     }
-
 
 
                     Button {
