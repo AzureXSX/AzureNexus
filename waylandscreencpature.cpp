@@ -28,8 +28,6 @@ Q_INVOKABLE void WaylandScreenCapture::init() {
         qDebug() << "XDG session desktop:" << xdgSessionDesktop;
     }
 
-    QString compositor;
-
     QStringList knownCompositors = {"weston", "kwin_wayland", "sway", "gnome-shell", "compton", "mutter", "hyprland"};
 
     QProcess process;
@@ -39,27 +37,54 @@ Q_INVOKABLE void WaylandScreenCapture::init() {
 
     for (const QString &comp : knownCompositors) {
         if (output.contains(comp, Qt::CaseInsensitive)) {
-            compositor = comp;
+            detectedCompositor = comp;
             break;
         }
     }
 
-    if (!compositor.isEmpty()) {
-        qDebug() << "Detected Wayland compositor:" << compositor;
+    if (!detectedCompositor.isEmpty()) {
+        qDebug() << "Detected Wayland compositor:" << detectedCompositor;
     } else {
         qDebug() << "No known Wayland compositor detected. Running custom or unknown compositor.";
     }
 
-    setSocketName(waylandDisplay);
-    create();
-
-    qDebug() << "Socekt ? " << socketName() << "\n";
-
+    connectToCompositor();
     qDebug() << "Initialization complete";
 }
 
-void WaylandScreenCapture::create(){
-    qDebug() << "Creating...\n";
+void WaylandScreenCapture::connectToCompositor() {
+    display = wl_display_connect(nullptr);
+    if (!display) {
+        qWarning() << "Failed to connect to Wayland display.";
+        return;
+    }
+
+    registry = wl_display_get_registry(display);
+    if (!registry) {
+        qWarning() << "Failed to get Wayland registry.";
+        wl_display_disconnect(display);
+        return;
+    }
+
+    static const struct wl_registry_listener registryListener = {
+        registryHandler,
+        registryRemover
+    };
+
+    wl_registry_add_listener(registry, &registryListener, this);
+    wl_display_roundtrip(display);
+    qDebug() << "Connected to Wayland compositor.";
+}
+
+void WaylandScreenCapture::registryHandler(void* data, struct wl_registry* registry, uint32_t id, const char* interface, uint32_t version) {
+    WaylandScreenCapture* self = static_cast<WaylandScreenCapture*>(data);
+    qDebug() << "Interface added:" << interface << "ID:" << id << "Version:" << version;
+
+    // Here you can bind to interfaces you are interested in, e.g. wl_compositor, wl_shell, etc.
+}
+
+void WaylandScreenCapture::registryRemover(void* data, struct wl_registry* registry, uint32_t id) {
+    qDebug() << "Interface removed ID:" << id;
 }
 
 Q_INVOKABLE void WaylandScreenCapture::takeScreenShot(){

@@ -217,12 +217,21 @@
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/fp-logb.h \
   /usr/include/bits/getopt_core.h \
   /usr/include/bits/getopt_posix.h \
+  /usr/include/bits/iscanonical.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
   /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/mathcalls.h \
   /usr/include/bits/posix1_lim.h \
   /usr/include/bits/posix2_lim.h \
   /usr/include/bits/posix_opt.h \
@@ -469,10 +478,12 @@
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/inttypes.h \
   /usr/include/limits.h \
   /usr/include/linux/errno.h \
   /usr/include/linux/limits.h \
   /usr/include/locale.h \
+  /usr/include/math.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/signal.h \
@@ -488,6 +499,11 @@
   /usr/include/sys/ucontext.h \
   /usr/include/time.h \
   /usr/include/unistd.h \
+  /usr/include/wayland-client-core.h \
+  /usr/include/wayland-client-protocol.h \
+  /usr/include/wayland-client.h \
+  /usr/include/wayland-util.h \
+  /usr/include/wayland-version.h \
   /usr/include/wchar.h \
   /usr/lib/clang/17/include/__stddef_max_align_t.h \
   /usr/lib/clang/17/include/stdarg.h \

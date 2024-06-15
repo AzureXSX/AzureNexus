@@ -11,31 +11,31 @@
 			"cmake" : "/home/azure/Qt/Tools/CMake/bin/cmake",
 			"cpack" : "/home/azure/Qt/Tools/CMake/bin/cpack",
 			"ctest" : "/home/azure/Qt/Tools/CMake/bin/ctest",
-			"root" : "/home/azure/Qt/Tools/CMake/share/cmake-3.27"
+			"root" : "/home/azure/Qt/Tools/CMake/share/cmake-3.29"
 		},
 		"version" : 
 		{
 			"isDirty" : false,
 			"major" : 3,
-			"minor" : 27,
-			"patch" : 7,
-			"string" : "3.27.7",
+			"minor" : 29,
+			"patch" : 3,
+			"string" : "3.29.3",
 			"suffix" : ""
 		}
 	},
 	"objects" : 
 	[
 		{
-			"jsonFile" : "codemodel-v2-9ded163b8fdbdd78469b.json",
+			"jsonFile" : "codemodel-v2-d278ad0e2226fe200256.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
 				"major" : 2,
-				"minor" : 6
+				"minor" : 7
 			}
 		},
 		{
-			"jsonFile" : "cache-v2-b82d7ac041b8e5177328.json",
+			"jsonFile" : "cache-v2-fac0a27f926cc9a1e681.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -44,7 +44,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cmakeFiles-v1-b111743bbba7a30edfa1.json",
+			"jsonFile" : "cmakeFiles-v1-05a92d9b07e510a80a2a.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -57,7 +57,7 @@
 	{
 		"cache-v2" : 
 		{
-			"jsonFile" : "cache-v2-b82d7ac041b8e5177328.json",
+			"jsonFile" : "cache-v2-fac0a27f926cc9a1e681.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -67,7 +67,7 @@
 		},
 		"cmakeFiles-v1" : 
 		{
-			"jsonFile" : "cmakeFiles-v1-b111743bbba7a30edfa1.json",
+			"jsonFile" : "cmakeFiles-v1-05a92d9b07e510a80a2a.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -77,12 +77,12 @@
 		},
 		"codemodel-v2" : 
 		{
-			"jsonFile" : "codemodel-v2-9ded163b8fdbdd78469b.json",
+			"jsonFile" : "codemodel-v2-d278ad0e2226fe200256.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
 				"major" : 2,
-				"minor" : 6
+				"minor" : 7
 			}
 		}
 	}

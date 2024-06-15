@@ -53,12 +53,12 @@
 			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake",
 			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6OpenGL/Qt6OpenGLVersionlessTargets.cmake",
 			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6OpenGL/Qt6OpenGLConfig.cmake",
-			"/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake",
+			"/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
 			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake",
 			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake",
 			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
-			"/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/FindOpenGL.cmake",
+			"/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/FindOpenGL.cmake",
 			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake",
 			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake",
 			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
@@ -102,13 +102,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 54,
+				"line" : 56,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 40,
+				"line" : 42,
 				"parent" : 0
 			},
 			{
@@ -328,13 +328,13 @@
 			{
 				"command" : 11,
 				"file" : 14,
-				"line" : 682,
+				"line" : 712,
 				"parent" : 47
 			},
 			{
 				"command" : 6,
 				"file" : 14,
-				"line" : 680,
+				"line" : 710,
 				"parent" : 47
 			},
 			{

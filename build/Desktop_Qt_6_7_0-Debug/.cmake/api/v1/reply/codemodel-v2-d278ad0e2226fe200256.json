@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-631499a77ac2ebf4d4ef.json",
+					"jsonFile" : "directory-.-Debug-c8344910114f04ab3dac.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -92,21 +92,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "appAzureNexus::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appAzureNexus-Debug-e84292e500d05c788a7e.json",
+					"jsonFile" : "target-appAzureNexus-Debug-266c2961ba10b1917c85.json",
 					"name" : "appAzureNexus",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "appAzureNexus_autogen::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appAzureNexus_autogen-Debug-092aef5767a02d45e8f5.json",
+					"jsonFile" : "target-appAzureNexus_autogen-Debug-3dfd90761f48c71d5d9f.json",
 					"name" : "appAzureNexus_autogen",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "appAzureNexus_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appAzureNexus_autogen_timestamp_deps-Debug-3fab4a5fa770aefaab15.json",
+					"jsonFile" : "target-appAzureNexus_autogen_timestamp_deps-Debug-4e19821cdfbfc56b47bb.json",
 					"name" : "appAzureNexus_autogen_timestamp_deps",
 					"projectIndex" : 0
 				},
@@ -164,6 +164,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 6
+		"minor" : 7
 	}
 }
