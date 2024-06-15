@@ -14,17 +14,7 @@ ApplicationWindow {
 
     RowLayout{
         spacing: 20
-        anchors.baseline: parent
-
-        // Button{
-        //     text: "start"
-        //     onClicked: captureX.init()
-        // }
-        // Button{
-        //     text: "stop"
-        //     onClicked: screenCapture.takeScreenShot()
-        //     x: 300
-        // }
+        anchors.centerIn:  parent
         Rectangle {
                 width: 300
                 height: 300
@@ -48,11 +38,23 @@ ApplicationWindow {
                         color: "black"
                     }
 
-                    TextInput{
+                    Rectangle{
+                        radius: 8
                         height: 50
-                        width: 200
-                        color: "black"
+                        width:  200
+                        border.color: "magenta"
+                        border.width: 3
+                        clip: true
+
+                        TextInput{
+                            anchors.fill: parent
+                            color: "black"
+                            maximumLength: 120
+                            padding: 8 // Optional: Add some padding if needed
+                        }
                     }
+
+
 
                     Button {
                         text: "Button"
