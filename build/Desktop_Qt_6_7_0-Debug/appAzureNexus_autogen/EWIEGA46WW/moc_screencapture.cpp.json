@@ -2,13 +2,6 @@
     "classes": [
         {
             "className": "ScreenCapture",
-            "methods": [
-                {
-                    "access": "public",
-                    "name": "takeScreenShot",
-                    "returnType": "void"
-                }
-            ],
             "object": true,
             "qualifiedClassName": "ScreenCapture",
             "superClasses": [

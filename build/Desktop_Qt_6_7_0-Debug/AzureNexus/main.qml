@@ -8,11 +8,12 @@ import QtQuick.Dialogs
 ApplicationWindow {
     width: screenWidth
     height: screenHeight
-    minimumWidth: 640
-    minimumHeight: 480
+    minimumWidth: 840
+    minimumHeight: 420
     visible: true
     title: qsTr("Hello World")
-    color: "#373f51" //ARGB |11456299
+    //373f51
+    color: "#2e3440" //ARGB |11456299
     //visibility: "FullScreen"
     id: mainWindow
 
@@ -24,14 +25,21 @@ ApplicationWindow {
         width: 65
         height: parent.height
         color: "black"
+        anchors {
+            left: parent.left
+            right: undefined
+            rightMargin: undefined
+        }
 
         ListView {
             width: 65
             spacing: 20
             anchors.fill: parent
+            anchors.leftMargin: 7
+            anchors.topMargin: 10
             id: contacts
             highlight: Rectangle {
-                color: "lime"
+                color: "#464EB8"
                 radius: 5
             }
             focus: true
@@ -105,11 +113,23 @@ ApplicationWindow {
             delegate: Rectangle {
                 width: 50
                 height: 50
-                color: model.color
+                color: "transparent"
                 border.width: 1
-                border.color: "black"
+                border.color: "#464EB8"
                 radius: 10
+                clip: true
 
+                // AnimatedImage {
+                //     id: svgImage
+                //     width: parent.width
+                //     height: parent.height
+                //     source: "file:///home/azure/Downloads/ShinkaY.gif"
+                // }
+                Image {
+                    width: 50
+                    height: 50
+                    source: "file:///home/azure/AzureNexus/icon1.svg"
+                }
                 MouseArea {
                     anchors.fill: parent
                     onClicked: {

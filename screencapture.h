@@ -19,11 +19,10 @@ class ScreenCapture : public QObject
     Q_OBJECT;
 public:
     explicit ScreenCapture(QObject *parent = nullptr);
-    Q_INVOKABLE void takeScreenShot();
     ScreenCapture();
     ~ScreenCapture();
 private:
-    QWaylandCompositor* compositor;
+    QWaylandClient *client;
 };
 
 #endif // SCREENCAPTURE_H

@@ -3,7 +3,9 @@
 #include <QQmlContext>
 #include <QScreen>
 #include <QWindow>
+#include "../Documents/GitHub/Linux-x64-HTTP3/client/QuicClient.h"
 #include "splashscreen.h"
+
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
@@ -12,6 +14,8 @@ int main(int argc, char *argv[])
     const char *cert = "/home/azure/Documents/GitHub/Linux-x64-HTTP3/certs/server.cert";
     const char *key = "/home/azure/Documents/GitHub/Linux-x64-HTTP3/certs/server.key";
 
+    QuicClient *client = new QuicClient("10.10.3.201", 6121, "nexus", cert, key);
+    client->Connect();
     QQmlApplicationEngine engine;
 
     QScreen *screen = QGuiApplication::primaryScreen();

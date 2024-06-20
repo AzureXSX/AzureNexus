@@ -68,17 +68,19 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				4
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				4,
 				5,
 				6,
-				7
+				7,
+				8,
+				9
 			]
 		}
 	],
@@ -105,6 +107,12 @@
 		{
 			"backtrace" : 5,
 			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_0-Debug/AzureNexus/Wayland.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/AzureNexus/AzureNexus.qrc",
 			"sourceGroupIndex" : 0
 		},
@@ -124,6 +132,12 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/AzureNexus/SvgButton.qml.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_0-Debug/AzureNexus/Wayland.qml.rule",
 			"sourceGroupIndex" : 1
 		},
 		{

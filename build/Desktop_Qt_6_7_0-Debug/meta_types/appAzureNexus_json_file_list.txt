@@ -1,4 +1,3 @@
-/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/appAzureNexus_autogen/include/../EWIEGA46WW/moc_quicclient.cpp.json
 /home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/appAzureNexus_autogen/include/../EWIEGA46WW/moc_screencapture.cpp.json
 /home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/appAzureNexus_autogen/include/../EWIEGA46WW/moc_splashscreen.cpp.json
 /home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/appAzureNexus_autogen/include/../EWIEGA46WW/moc_voicecapture.cpp.json

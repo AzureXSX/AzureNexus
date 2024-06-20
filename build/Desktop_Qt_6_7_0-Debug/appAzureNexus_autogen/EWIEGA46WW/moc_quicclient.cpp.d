@@ -516,6 +516,7 @@
   /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/lib/clang/17/include/__stddef_max_align_t.h \
   /usr/lib/clang/17/include/stdarg.h \
   /usr/lib/clang/17/include/stdbool.h \
   /usr/lib/clang/17/include/stddef.h

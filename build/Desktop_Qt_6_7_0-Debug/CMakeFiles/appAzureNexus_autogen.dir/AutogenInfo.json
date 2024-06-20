@@ -1086,12 +1086,6 @@
 			null
 		],
 		[
-			"/home/azure/AzureNexus/quicclient.h",
-			"Mu",
-			"EWIEGA46WW/moc_quicclient.cpp",
-			null
-		],
-		[
 			"/home/azure/AzureNexus/screencapture.h",
 			"Mu",
 			"EWIEGA46WW/moc_screencapture.cpp",
@@ -1107,6 +1101,12 @@
 			"/home/azure/AzureNexus/voicecapture.h",
 			"Mu",
 			"EWIEGA46WW/moc_voicecapture.cpp",
+			null
+		],
+		[
+			"/home/azure/Documents/GitHub/Linux-x64-HTTP3/client/QuicClient.h",
+			"Mu",
+			"BWCFGYOW3N/moc_QuicClient.cpp",
 			null
 		]
 	],
@@ -1211,10 +1211,14 @@
 	[
 		[ "/home/azure/AzureNexus/appAzureNexus/proto/test.pb.cc", "Mu", null ],
 		[ "/home/azure/AzureNexus/main.cpp", "Mu", null ],
-		[ "/home/azure/AzureNexus/quicclient.cpp", "Mu", null ],
 		[ "/home/azure/AzureNexus/screencapture.cpp", "Mu", null ],
 		[ "/home/azure/AzureNexus/splashscreen.cpp", "Mu", null ],
-		[ "/home/azure/AzureNexus/voicecapture.cpp", "Mu", null ]
+		[ "/home/azure/AzureNexus/voicecapture.cpp", "Mu", null ],
+		[
+			"/home/azure/Documents/GitHub/Linux-x64-HTTP3/client/QuicClient.cpp",
+			"Mu",
+			null
+		]
 	],
 	"USE_BETTER_GRAPH" : false,
 	"VERBOSITY" : 0

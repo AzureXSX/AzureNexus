@@ -55,5 +55,4 @@ Item {
         height: parent.height
         source: "file:///home/azure/AzureNexus/icon2.svg"
     }
-    Wayland {}
 }

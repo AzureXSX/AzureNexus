@@ -21,7 +21,7 @@ qt_add_qml_module(appAzureNexus
     VERSION 1.0
     QML_FILES main.qml
     QML_FILES login.qml
-    SOURCES quicclient.h quicclient.cpp
+    SOURCES
     SOURCES appAzureNexus/proto/test.pb.h
     SOURCES appAzureNexus/proto/test.pb.cc
     SOURCES screencapture.h screencapture.cpp
@@ -30,6 +30,8 @@ qt_add_qml_module(appAzureNexus
     QML_FILES SvgButton.qml
     RESOURCES AzureNexus.qrc
     QML_FILES Wayland.qml
+    SOURCES ../Documents/GitHub/Linux-x64-HTTP3/client/QuicClient.h
+    SOURCES ../Documents/GitHub/Linux-x64-HTTP3/client/QuicClient.cpp
 )
 
 #SOURCES waylandscreencpature.h waylandscreencpature.cpp

@@ -13,7 +13,7 @@ ApplicationWindow {
     maximumHeight: 270
     maximumWidth: 215
     visible: true
-    color: "#36393e"
+    color: "#2e3440" //36393e
 
     ColumnLayout {
         anchors.centerIn: parent
@@ -40,7 +40,7 @@ ApplicationWindow {
             contentItem: Rectangle {
                 width: parent.width * (progressBar.value / progressBar.to)
                 height: parent.height
-                color: "#8e9297" // | 5865F2
+                color: "#5865F2" // | 5865F2 | f3f0ff | 8e9297 | e9ecef
                 radius: 10
             }
             Timer {
