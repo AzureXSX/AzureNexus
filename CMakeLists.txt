@@ -29,6 +29,7 @@ qt_add_qml_module(appAzureNexus
     SOURCES splashscreen.h splashscreen.cpp
     QML_FILES SvgButton.qml
     RESOURCES AzureNexus.qrc
+    QML_FILES Wayland.qml
 )
 
 #SOURCES waylandscreencpature.h waylandscreencpature.cpp

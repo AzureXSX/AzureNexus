@@ -3,6 +3,7 @@
     <file alias="main.qml">/home/azure/AzureNexus/main.qml</file>
     <file alias="login.qml">/home/azure/AzureNexus/login.qml</file>
     <file alias="SvgButton.qml">/home/azure/AzureNexus/SvgButton.qml</file>
+    <file alias="Wayland.qml">/home/azure/AzureNexus/Wayland.qml</file>
     <file alias="AzureNexus.qrc">/home/azure/AzureNexus/AzureNexus.qrc</file>
   </qresource>
 </RCC>
