@@ -1,13 +1,9 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
+#include <QScreen>
 #include <QWindow>
-
-#include "quicclient.h"
-#include "screencapture.h"
 #include "splashscreen.h"
-#include "voicecapture.h"
-// #include "waylandscreencpature.h"
 
 int main(int argc, char *argv[])
 {
@@ -17,20 +13,16 @@ int main(int argc, char *argv[])
     const char *cert = "/home/azure/Documents/GitHub/Linux-x64-HTTP3/certs/server.cert";
     const char *key = "/home/azure/Documents/GitHub/Linux-x64-HTTP3/certs/server.key";
 
-    QuicClient quicClient(host, udpPort, cert, key);
-    ScreenCapture screenCapture(nullptr);
-    VoiceCapture voiceCapture(nullptr);
-    // WaylandScreenCapture capture(nullptr);
-
     QQmlApplicationEngine engine;
+
+    QScreen *screen = QGuiApplication::primaryScreen();
+    QRect screenGeometry = screen->geometry();
 
     SplashScreen sp(&engine);
 
-    engine.rootContext()->setContextProperty("quicClient", &quicClient);
-    engine.rootContext()->setContextProperty("screenCapture", &screenCapture);
-    engine.rootContext()->setContextProperty("voiceCapture", &voiceCapture);
     engine.rootContext()->setContextProperty("sp", &sp);
-    // engine.rootContext()->setContextProperty("captureX", &capture);
+    engine.rootContext()->setContextProperty("screenWidth", screenGeometry.width());
+    engine.rootContext()->setContextProperty("screenHeight", screenGeometry.height());
 
     const QUrl url(QStringLiteral("qrc:/AzureNexus/login.qml"));
     QObject::connect(
@@ -43,8 +35,6 @@ int main(int argc, char *argv[])
         },
         Qt::QueuedConnection);
     engine.load(url);
-
-    sp.startLoginProcess();
 
     return app.exec();
 }

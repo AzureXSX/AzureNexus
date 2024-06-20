@@ -7,7 +7,7 @@ SplashScreen::SplashScreen(QQmlApplicationEngine *engine, QObject *parent)
 
 void SplashScreen::startLoginProcess()
 {
-    QTimer::singleShot(3000, [this]() {
+    QTimer::singleShot(0, [this]() {
         QObject *loginWindow = m_engine->rootObjects().first();
         loginWindow->setProperty("visible", false);
 

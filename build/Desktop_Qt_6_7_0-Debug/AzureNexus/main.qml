@@ -6,117 +6,52 @@ import Qt5Compat.GraphicalEffects
 import QtQuick.Dialogs
 
 ApplicationWindow {
-    width: 640
-    height: 480
+    width: screenWidth
+    height: screenHeight
     minimumWidth: 640
     minimumHeight: 480
     visible: true
     title: qsTr("Hello World")
-    color: "#11456299" //ARGB
-    id: reveal
+    color: "#373f51" //ARGB |11456299
+    //visibility: "FullScreen"
+    id: mainWindow
 
-    RowLayout {
-        spacing: 20
-        anchors.centerIn: parent
-        Rectangle {
-            width: 300
-            height: 300
-            anchors.centerIn: parent
-            radius: 20
-            border.width: 2
-            color: "transparent"
+    onWidthChanged: {
+        console.log(width)
+    }
 
-            Column {
-                anchors.centerIn: parent
-                spacing: 10
+    Rectangle {
+        width: 65
+        height: parent.height
+        color: "black"
 
-                Text {
-                    text: "Glass Effect"
-                    font.pixelSize: 24
-                    color: "black"
+        ListView {
+            width: 65
+            spacing: 20
+            anchors.fill: parent
+            id: contacts
+
+            model: ListModel {
+                ListElement {
+                    color: "lightblue"
                 }
-
-                Rectangle {
-                    radius: 8
-                    height: 50
-                    width: 200
-                    border.color: "magenta"
-                    border.width: 3
-                    clip: true
-
-                    TextInput {
-                        anchors {
-                            left: parent.left
-                            right: parent.right
-                        }
-                        color: "black"
-                        maximumLength: 120
-                        padding: 8
-                        font.pixelSize: 16
-                        width: parent.width - 20
-                    }
+                ListElement {
+                    color: "lightgreen"
                 }
-
-                Button {
-                    id: button
-                    anchors {
-                        left: parent.left
-                        right: parent.right
-                    }
-                    text: "Button"
-
-                    background: Rectangle {
-                        id: buttonBackground
-                        implicitWidth: 100
-                        implicitHeight: 40
-                        color: "#f6f6f6"
-                        border.color: "#26282a"
-                        border.width: 1
-                        radius: 4
-
-                        Behavior on color {
-                            SequentialAnimation {
-                                ColorAnimation {
-                                    from: "transparent"
-                                    to: "lightblue"
-                                    duration: 1000
-                                }
-                                ColorAnimation {
-                                    from: "lightblue"
-                                    to: "transparent"
-                                    duration: 1000
-                                }
-                            }
-                        }
-                    }
-
-                    MouseArea {
-                        id: mouseArea
-                        anchors.fill: parent
-                        hoverEnabled: true
-
-                        onEntered: {
-                            buttonBackground.color = "lime" // Hover color
-                        }
-                        onExited: {
-                            buttonBackground.color = "#f6f6f6" // Normal color
-                        }
-                        onPressed: {
-                            buttonBackground.color = "#d6d6d6" // Pressed color
-                        }
-                        onReleased: {
-                            if (containsMouse) {
-                                buttonBackground.color = "#e6e6e6" // Hover color
-                            } else {
-                                buttonBackground.color = "#f6f6f6" // Normal color
-                            }
-                        }
-                    }
-
-                    onClicked: {
-                        notificationPopup.open()
-                    }
+                ListElement {
+                    color: "lightcoral"
                 }
+                // Add more ListElements as needed
+            }
+
+            delegate: Rectangle {
+                width: 50
+                height: 50
+                color: model.color
+                border.width: 1
+                border.color: "black"
+                radius: 10
+                anchors.topMargin: 20
             }
         }
     }
