@@ -30,8 +30,67 @@ ApplicationWindow {
             spacing: 20
             anchors.fill: parent
             id: contacts
+            highlight: Rectangle {
+                color: "lime"
+                radius: 5
+            }
+            focus: true
 
             model: ListModel {
+                ListElement {
+                    color: "lightblue"
+                }
+                ListElement {
+                    color: "lightgreen"
+                }
+                ListElement {
+                    color: "lightcoral"
+                }
+                ListElement {
+                    color: "lightblue"
+                }
+                ListElement {
+                    color: "lightgreen"
+                }
+                ListElement {
+                    color: "lightcoral"
+                }
+                ListElement {
+                    color: "lightblue"
+                }
+                ListElement {
+                    color: "lightgreen"
+                }
+                ListElement {
+                    color: "lightcoral"
+                }
+                ListElement {
+                    color: "lightblue"
+                }
+                ListElement {
+                    color: "lightgreen"
+                }
+                ListElement {
+                    color: "lightcoral"
+                }
+                ListElement {
+                    color: "lightblue"
+                }
+                ListElement {
+                    color: "lightgreen"
+                }
+                ListElement {
+                    color: "lightcoral"
+                }
+                ListElement {
+                    color: "lightblue"
+                }
+                ListElement {
+                    color: "lightgreen"
+                }
+                ListElement {
+                    color: "lightcoral"
+                }
                 ListElement {
                     color: "lightblue"
                 }
@@ -50,7 +109,13 @@ ApplicationWindow {
                 border.width: 1
                 border.color: "black"
                 radius: 10
-                anchors.topMargin: 20
+
+                MouseArea {
+                    anchors.fill: parent
+                    onClicked: {
+                        contacts.currentIndex = index
+                    }
+                }
             }
         }
     }
