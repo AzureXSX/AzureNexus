@@ -45,7 +45,7 @@ ApplicationWindow {
             }
             Timer {
                 id: timer
-                interval: 30
+                interval: 60
                 running: true
                 repeat: true
                 onTriggered: {

@@ -20,105 +20,105 @@ ApplicationWindow {
         console.log(width)
     }
 
-    // Rectangle {
-    //     width: 65
-    //     height: parent.height
-    //     color: "black"
+    Rectangle {
+        width: 65
+        height: parent.height
+        color: "black"
 
-    //     ListView {
-    //         width: 65
-    //         spacing: 20
-    //         anchors.fill: parent
-    //         id: contacts
-    //         highlight: Rectangle {
-    //             color: "lime"
-    //             radius: 5
-    //         }
-    //         focus: true
+        ListView {
+            width: 65
+            spacing: 20
+            anchors.fill: parent
+            id: contacts
+            highlight: Rectangle {
+                color: "lime"
+                radius: 5
+            }
+            focus: true
 
-    //         model: ListModel {
-    //             ListElement {
-    //                 color: "lightblue"
-    //             }
-    //             ListElement {
-    //                 color: "lightgreen"
-    //             }
-    //             ListElement {
-    //                 color: "lightcoral"
-    //             }
-    //             ListElement {
-    //                 color: "lightblue"
-    //             }
-    //             ListElement {
-    //                 color: "lightgreen"
-    //             }
-    //             ListElement {
-    //                 color: "lightcoral"
-    //             }
-    //             ListElement {
-    //                 color: "lightblue"
-    //             }
-    //             ListElement {
-    //                 color: "lightgreen"
-    //             }
-    //             ListElement {
-    //                 color: "lightcoral"
-    //             }
-    //             ListElement {
-    //                 color: "lightblue"
-    //             }
-    //             ListElement {
-    //                 color: "lightgreen"
-    //             }
-    //             ListElement {
-    //                 color: "lightcoral"
-    //             }
-    //             ListElement {
-    //                 color: "lightblue"
-    //             }
-    //             ListElement {
-    //                 color: "lightgreen"
-    //             }
-    //             ListElement {
-    //                 color: "lightcoral"
-    //             }
-    //             ListElement {
-    //                 color: "lightblue"
-    //             }
-    //             ListElement {
-    //                 color: "lightgreen"
-    //             }
-    //             ListElement {
-    //                 color: "lightcoral"
-    //             }
-    //             ListElement {
-    //                 color: "lightblue"
-    //             }
-    //             ListElement {
-    //                 color: "lightgreen"
-    //             }
-    //             ListElement {
-    //                 color: "lightcoral"
-    //             }
-    //         }
+            model: ListModel {
+                ListElement {
+                    color: "lightblue"
+                }
+                ListElement {
+                    color: "lightgreen"
+                }
+                ListElement {
+                    color: "lightcoral"
+                }
+                ListElement {
+                    color: "lightblue"
+                }
+                ListElement {
+                    color: "lightgreen"
+                }
+                ListElement {
+                    color: "lightcoral"
+                }
+                ListElement {
+                    color: "lightblue"
+                }
+                ListElement {
+                    color: "lightgreen"
+                }
+                ListElement {
+                    color: "lightcoral"
+                }
+                ListElement {
+                    color: "lightblue"
+                }
+                ListElement {
+                    color: "lightgreen"
+                }
+                ListElement {
+                    color: "lightcoral"
+                }
+                ListElement {
+                    color: "lightblue"
+                }
+                ListElement {
+                    color: "lightgreen"
+                }
+                ListElement {
+                    color: "lightcoral"
+                }
+                ListElement {
+                    color: "lightblue"
+                }
+                ListElement {
+                    color: "lightgreen"
+                }
+                ListElement {
+                    color: "lightcoral"
+                }
+                ListElement {
+                    color: "lightblue"
+                }
+                ListElement {
+                    color: "lightgreen"
+                }
+                ListElement {
+                    color: "lightcoral"
+                }
+            }
 
-    //         delegate: Rectangle {
-    //             width: 50
-    //             height: 50
-    //             color: model.color
-    //             border.width: 1
-    //             border.color: "black"
-    //             radius: 10
+            delegate: Rectangle {
+                width: 50
+                height: 50
+                color: model.color
+                border.width: 1
+                border.color: "black"
+                radius: 10
 
-    //             MouseArea {
-    //                 anchors.fill: parent
-    //                 onClicked: {
-    //                     contacts.currentIndex = index
-    //                 }
-    //             }
-    //         }
-    //     }
-    // }
+                MouseArea {
+                    anchors.fill: parent
+                    onClicked: {
+                        contacts.currentIndex = index
+                    }
+                }
+            }
+        }
+    }
     SvgButton {
         anchors.centerIn: parent
     }
