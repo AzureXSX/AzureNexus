@@ -1,4 +1,5 @@
 module AzureNexus
 typeinfo appAzureNexus.qmltypes
 prefer :/AzureNexus/
+SvgButton 1.0 SvgButton.qml
 

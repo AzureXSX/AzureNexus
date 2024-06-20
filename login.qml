@@ -18,7 +18,10 @@ ApplicationWindow {
     ColumnLayout {
         anchors.centerIn: parent
         height: parent.height
-
+        SvgButton {
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.bottomMargin: 40
+        }
         ProgressBar {
             anchors.bottom: parent.bottom
             anchors.bottomMargin: 30

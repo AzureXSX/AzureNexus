@@ -4,7 +4,6 @@
 #include <QScreen>
 #include <QWindow>
 #include "splashscreen.h"
-
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
@@ -23,6 +22,10 @@ int main(int argc, char *argv[])
     engine.rootContext()->setContextProperty("sp", &sp);
     engine.rootContext()->setContextProperty("screenWidth", screenGeometry.width());
     engine.rootContext()->setContextProperty("screenHeight", screenGeometry.height());
+
+    const QString svgImagePath = "qrc:/svg/icon1.svg";
+
+    engine.rootContext()->setContextProperty("svgImagePath", svgImagePath);
 
     const QUrl url(QStringLiteral("qrc:/AzureNexus/login.qml"));
     QObject::connect(

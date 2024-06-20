@@ -903,6 +903,14 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets-relwithdebinfo.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsVersionlessTargets.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Svg/Qt6SvgAdditionalTargetInfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Svg/Qt6SvgConfig.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Svg/Qt6SvgConfigVersion.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Svg/Qt6SvgConfigVersionImpl.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Svg/Qt6SvgDependencies.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Svg/Qt6SvgTargets-relwithdebinfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Svg/Qt6SvgTargets.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Svg/Qt6SvgVersionlessTargets.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6DmaBufServerBufferIntegrationPluginAdditionalTargetInfo.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6DmaBufServerBufferIntegrationPluginConfig.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WaylandCompositor/Qt6DmaBufServerBufferIntegrationPluginTargets-relwithdebinfo.cmake \
