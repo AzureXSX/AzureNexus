@@ -14,9 +14,15 @@
 			}
 		]
 	},
-	"id" : "appAzureNexus_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+	"dependencies" : 
+	[
+		{
+			"id" : "appAzureNexus_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "appAzureNexus_autogen::@6890427a1f51a3e7e1df",
 	"isGeneratorProvided" : true,
-	"name" : "appAzureNexus_autogen_timestamp_deps",
+	"name" : "appAzureNexus_autogen",
 	"paths" : 
 	{
 		"build" : ".",
@@ -35,7 +41,8 @@
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				1
+				1,
+				2
 			]
 		}
 	],
@@ -44,13 +51,19 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_0-Debug/CMakeFiles/appAzureNexus_autogen_timestamp_deps",
+			"path" : "build/Desktop_Qt_6_7_0-Debug/CMakeFiles/appAzureNexus_autogen",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_0-Debug/CMakeFiles/appAzureNexus_autogen_timestamp_deps.rule",
+			"path" : "build/Desktop_Qt_6_7_0-Debug/CMakeFiles/appAzureNexus_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_0-Debug/appAzureNexus_autogen/timestamp.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

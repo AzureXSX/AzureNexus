@@ -102,13 +102,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 56,
+				"line" : 58,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 42,
+				"line" : 44,
 				"parent" : 0
 			},
 			{
@@ -585,6 +585,18 @@
 				"parent" : 69
 			},
 			{
+				"command" : 24,
+				"file" : 18,
+				"line" : 2531,
+				"parent" : 69
+			},
+			{
+				"command" : 24,
+				"file" : 18,
+				"line" : 2683,
+				"parent" : 69
+			},
+			{
 				"command" : 28,
 				"file" : 18,
 				"line" : 2766,
@@ -594,19 +606,19 @@
 				"command" : 27,
 				"file" : 0,
 				"line" : 337,
-				"parent" : 93
+				"parent" : 95
 			},
 			{
 				"command" : 26,
 				"file" : 0,
 				"line" : 2390,
-				"parent" : 94
+				"parent" : 96
 			},
 			{
 				"command" : 24,
 				"file" : 0,
 				"line" : 2004,
-				"parent" : 95
+				"parent" : 97
 			},
 			{
 				"command" : 30,
@@ -618,7 +630,7 @@
 				"command" : 24,
 				"file" : 0,
 				"line" : 2117,
-				"parent" : 97
+				"parent" : 99
 			}
 		]
 	},
@@ -809,8 +821,10 @@
 				10,
 				12,
 				14,
-				15,
-				16
+				16,
+				17,
+				19,
+				20
 			]
 		}
 	],
@@ -988,8 +1002,10 @@
 				10,
 				12,
 				14,
-				15,
-				16
+				16,
+				17,
+				19,
+				20
 			]
 		},
 		{
@@ -997,22 +1013,23 @@
 			"sourceIndexes" : 
 			[
 				2,
-				13,
-				17,
+				15,
 				18,
-				19,
-				20,
-				29,
-				30,
-				31,
-				32,
-				33,
+				21,
+				22,
+				23,
+				24,
 				34,
 				35,
 				36,
 				37,
 				38,
-				39
+				39,
+				40,
+				41,
+				42,
+				43,
+				44
 			]
 		},
 		{
@@ -1022,21 +1039,23 @@
 				5,
 				7,
 				9,
-				11
+				11,
+				13
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				21,
-				22,
-				23,
-				24,
 				25,
 				26,
 				27,
-				28
+				28,
+				29,
+				30,
+				31,
+				32,
+				33
 			]
 		}
 	],
@@ -1120,6 +1139,17 @@
 			"sourceGroupIndex" : 0
 		},
 		{
+			"backtrace" : 88,
+			"path" : "splashscreen.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 88,
+			"compileGroupIndex" : 0,
+			"path" : "splashscreen.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
 			"backtrace" : 89,
 			"path" : "main.qml",
 			"sourceGroupIndex" : 1
@@ -1139,26 +1169,38 @@
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 96,
+			"backtrace" : 93,
+			"path" : "login.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 94,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_0-Debug/.rcc/qmlcache/appAzureNexus_login_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 98,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/.qt/rcc/qrc_appAzureNexus_raw_qml_0.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 98,
+			"backtrace" : 100,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/.qt/rcc/qmake_AzureNexus.qrc",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 98,
+			"backtrace" : 100,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/AzureNexus/qmldir",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 98,
+			"backtrace" : 100,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/.qt/rcc/appAzureNexus_raw_qml_0.qrc",
 			"sourceGroupIndex" : 1
@@ -1197,6 +1239,12 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/.rcc/qmlcache/appAzureNexus_main_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_0-Debug/.rcc/qmlcache/appAzureNexus_login_qml.cpp.rule",
 			"sourceGroupIndex" : 3
 		},
 		{

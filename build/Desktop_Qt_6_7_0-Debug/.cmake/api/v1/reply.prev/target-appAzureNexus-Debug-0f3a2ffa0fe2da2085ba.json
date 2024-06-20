@@ -53,12 +53,12 @@
 			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake",
 			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6OpenGL/Qt6OpenGLVersionlessTargets.cmake",
 			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6OpenGL/Qt6OpenGLConfig.cmake",
-			"/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake",
+			"/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
 			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake",
 			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake",
 			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
-			"/home/azure/Qt/Tools/CMake/share/cmake-3.27/Modules/FindOpenGL.cmake",
+			"/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/FindOpenGL.cmake",
 			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake",
 			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake",
 			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
@@ -102,13 +102,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 55,
+				"line" : 57,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 41,
+				"line" : 43,
 				"parent" : 0
 			},
 			{
@@ -328,13 +328,13 @@
 			{
 				"command" : 11,
 				"file" : 14,
-				"line" : 682,
+				"line" : 712,
 				"parent" : 47
 			},
 			{
 				"command" : 6,
 				"file" : 14,
-				"line" : 680,
+				"line" : 710,
 				"parent" : 47
 			},
 			{
@@ -585,6 +585,18 @@
 				"parent" : 69
 			},
 			{
+				"command" : 24,
+				"file" : 18,
+				"line" : 2531,
+				"parent" : 69
+			},
+			{
+				"command" : 24,
+				"file" : 18,
+				"line" : 2683,
+				"parent" : 69
+			},
+			{
 				"command" : 28,
 				"file" : 18,
 				"line" : 2766,
@@ -594,19 +606,19 @@
 				"command" : 27,
 				"file" : 0,
 				"line" : 337,
-				"parent" : 93
+				"parent" : 95
 			},
 			{
 				"command" : 26,
 				"file" : 0,
 				"line" : 2390,
-				"parent" : 94
+				"parent" : 96
 			},
 			{
 				"command" : 24,
 				"file" : 0,
 				"line" : 2004,
-				"parent" : 95
+				"parent" : 97
 			},
 			{
 				"command" : 30,
@@ -618,7 +630,7 @@
 				"command" : 24,
 				"file" : 0,
 				"line" : 2117,
-				"parent" : 97
+				"parent" : 99
 			}
 		]
 	},
@@ -809,7 +821,7 @@
 				10,
 				12,
 				14,
-				16,
+				15,
 				17,
 				18
 			]
@@ -989,7 +1001,7 @@
 				10,
 				12,
 				14,
-				16,
+				15,
 				17,
 				18
 			]
@@ -999,12 +1011,12 @@
 			"sourceIndexes" : 
 			[
 				2,
-				15,
+				13,
+				16,
 				19,
 				20,
 				21,
 				22,
-				31,
 				32,
 				33,
 				34,
@@ -1014,7 +1026,8 @@
 				38,
 				39,
 				40,
-				41
+				41,
+				42
 			]
 		},
 		{
@@ -1024,8 +1037,7 @@
 				5,
 				7,
 				9,
-				11,
-				13
+				11
 			]
 		},
 		{
@@ -1039,7 +1051,8 @@
 				27,
 				28,
 				29,
-				30
+				30,
+				31
 			]
 		}
 	],
@@ -1123,17 +1136,6 @@
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 88,
-			"path" : "waylandscreencpature.h",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 88,
-			"compileGroupIndex" : 0,
-			"path" : "waylandscreencpature.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
 			"backtrace" : 89,
 			"path" : "main.qml",
 			"sourceGroupIndex" : 1
@@ -1153,26 +1155,38 @@
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 96,
+			"backtrace" : 93,
+			"path" : "login.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 94,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_0-Debug/.rcc/qmlcache/appAzureNexus_login_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 98,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/.qt/rcc/qrc_appAzureNexus_raw_qml_0.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 98,
+			"backtrace" : 100,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/.qt/rcc/qmake_AzureNexus.qrc",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 98,
+			"backtrace" : 100,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/AzureNexus/qmldir",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 98,
+			"backtrace" : 100,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/.qt/rcc/appAzureNexus_raw_qml_0.qrc",
 			"sourceGroupIndex" : 1
@@ -1211,6 +1225,12 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/.rcc/qmlcache/appAzureNexus_main_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_0-Debug/.rcc/qmlcache/appAzureNexus_login_qml.cpp.rule",
 			"sourceGroupIndex" : 3
 		},
 		{

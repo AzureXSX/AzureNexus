@@ -19,11 +19,13 @@ qt_add_qml_module(appAzureNexus
     URI AzureNexus
     VERSION 1.0
     QML_FILES main.qml
+    QML_FILES login.qml
     SOURCES quicclient.h quicclient.cpp
     SOURCES appAzureNexus/proto/test.pb.h
     SOURCES appAzureNexus/proto/test.pb.cc
     SOURCES screencapture.h screencapture.cpp
     SOURCES voicecapture.h voicecapture.cpp
+    SOURCES splashscreen.h splashscreen.cpp
 )
 
 #SOURCES waylandscreencpature.h waylandscreencpature.cpp

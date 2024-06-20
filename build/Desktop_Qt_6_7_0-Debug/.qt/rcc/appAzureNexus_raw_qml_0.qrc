@@ -1,6 +1,7 @@
 <RCC>
   <qresource prefix="/AzureNexus/">
     <file alias="main.qml">/home/azure/AzureNexus/main.qml</file>
+    <file alias="login.qml">/home/azure/AzureNexus/login.qml</file>
   </qresource>
 </RCC>
 

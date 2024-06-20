@@ -66,6 +66,30 @@
     {
         "classes": [
             {
+                "className": "SplashScreen",
+                "methods": [
+                    {
+                        "access": "public",
+                        "name": "startLoginProcess",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "SplashScreen",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "splashscreen.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
                 "className": "VoiceCapture",
                 "methods": [
                     {

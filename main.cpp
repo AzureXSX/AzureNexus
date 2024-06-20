@@ -5,6 +5,7 @@
 
 #include "quicclient.h"
 #include "screencapture.h"
+#include "splashscreen.h"
 #include "voicecapture.h"
 // #include "waylandscreencpature.h"
 
@@ -23,12 +24,15 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
 
+    SplashScreen sp(&engine);
+
     engine.rootContext()->setContextProperty("quicClient", &quicClient);
     engine.rootContext()->setContextProperty("screenCapture", &screenCapture);
     engine.rootContext()->setContextProperty("voiceCapture", &voiceCapture);
+    engine.rootContext()->setContextProperty("sp", &sp);
     // engine.rootContext()->setContextProperty("captureX", &capture);
 
-    const QUrl url(QStringLiteral("qrc:/AzureNexus/main.qml"));
+    const QUrl url(QStringLiteral("qrc:/AzureNexus/login.qml"));
     QObject::connect(
         &engine,
         &QQmlApplicationEngine::objectCreated,
@@ -39,6 +43,8 @@ int main(int argc, char *argv[])
         },
         Qt::QueuedConnection);
     engine.load(url);
+
+    sp.startLoginProcess();
 
     return app.exec();
 }

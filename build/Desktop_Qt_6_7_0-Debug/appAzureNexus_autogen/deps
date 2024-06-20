@@ -12,6 +12,8 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/AzureNexus/quicclient.h \
 	/home/azure/AzureNexus/screencapture.cpp \
 	/home/azure/AzureNexus/screencapture.h \
+	/home/azure/AzureNexus/splashscreen.cpp \
+	/home/azure/AzureNexus/splashscreen.h \
 	/home/azure/AzureNexus/voicecapture.cpp \
 	/home/azure/AzureNexus/voicecapture.h \
 	/home/azure/MsQuic/include/msquic.h \
@@ -33,6 +35,7 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QSize \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QSizeF \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QString \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QTimer \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QUrl \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QVariant \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QVariantMap \
@@ -49,6 +52,7 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qatomic.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qatomic_cxx11.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qbasicatomic.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qbasictimer.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qbindingstorage.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qbuffer.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qbytearray.h \
@@ -156,6 +160,7 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtdeprecationmarkers.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtenvironmentvariables.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtextstream.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtimer.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtimezone.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtmetamacros.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtnoop.h \
@@ -241,10 +246,20 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtNetwork/qtnetwork-config.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtNetwork/qtnetworkexports.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtNetwork/qtnetworkglobal.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/QQmlApplicationEngine \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/QQmlContext \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qjsengine.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qjsmanagedvalue.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qjsnumbercoercion.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qjsprimitivevalue.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qjsvalue.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqml.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmlabstracturlinterceptor.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmlapplicationengine.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmlcontext.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmldebug.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmlengine.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmlerror.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmllist.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmlparserstatus.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmlprivate.h \
@@ -636,6 +651,14 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtchartsqml2Config.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtchartsqml2Targets-relwithdebinfo.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtchartsqml2Targets.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginAdditionalTargetInfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginConfig.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginTargets-relwithdebinfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginTargets.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateAdditionalTargetInfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateConfig.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateTargets-relwithdebinfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateTargets.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtlabsplatformpluginAdditionalTargetInfo.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtlabsplatformpluginConfig.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtlabsplatformpluginTargets-relwithdebinfo.cmake \
@@ -950,79 +973,23 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeCXXInformation.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeGenericSystem.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeSystem.cmake.in \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CheckIncludeFileCXX.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/Clang-CXX.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/Clang-FindBinUtils.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/Clang.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/GNU.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/FindOpenGL.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake \
@@ -1031,14 +998,11 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/FindThreads.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/FindVulkan.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/GNUInstallDirs.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/MacroAddFileDependencies.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Platform/Linux-Clang-CXX.cmake \
-	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Platform/Linux-Determine-CXX.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Platform/Linux-GNU-CXX.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake \
