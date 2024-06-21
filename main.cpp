@@ -4,6 +4,7 @@
 #include <QScreen>
 #include <QWindow>
 #include "../Documents/GitHub/Linux-x64-HTTP3/client/QuicClient.h"
+#include "ColorsConfig.h"
 #include "splashscreen.h"
 
 int main(int argc, char *argv[])
@@ -22,7 +23,9 @@ int main(int argc, char *argv[])
     QRect screenGeometry = screen->geometry();
 
     SplashScreen sp(&engine);
+    ColorsConfig colorsConfig;
 
+    engine.rootContext()->setContextProperty("ColorsConfig", &colorsConfig);
     engine.rootContext()->setContextProperty("sp", &sp);
     engine.rootContext()->setContextProperty("screenWidth", screenGeometry.width());
     engine.rootContext()->setContextProperty("screenHeight", screenGeometry.height());

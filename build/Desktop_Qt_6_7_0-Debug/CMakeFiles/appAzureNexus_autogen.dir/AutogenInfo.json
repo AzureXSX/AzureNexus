@@ -1080,6 +1080,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/azure/AzureNexus/ColorsConfig.h",
+			"Mu",
+			"EWIEGA46WW/moc_ColorsConfig.cpp",
+			null
+		],
+		[
 			"/home/azure/AzureNexus/appAzureNexus/proto/test.pb.h",
 			"Mu",
 			"KZYTJMXR4F/moc_test.pb.cpp",

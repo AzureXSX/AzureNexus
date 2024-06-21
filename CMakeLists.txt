@@ -32,6 +32,7 @@ qt_add_qml_module(appAzureNexus
     QML_FILES Wayland.qml
     SOURCES ../Documents/GitHub/Linux-x64-HTTP3/client/QuicClient.h
     SOURCES ../Documents/GitHub/Linux-x64-HTTP3/client/QuicClient.cpp
+    SOURCES ColorsConfig.h
 )
 
 #SOURCES waylandscreencpature.h waylandscreencpature.cpp

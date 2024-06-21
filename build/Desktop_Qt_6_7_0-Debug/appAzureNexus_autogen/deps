@@ -1,5 +1,6 @@
 appAzureNexus_autogen/timestamp: \
 	/home/azure/AzureNexus/CMakeLists.txt \
+	/home/azure/AzureNexus/ColorsConfig.h \
 	/home/azure/AzureNexus/appAzureNexus/proto/test.pb.cc \
 	/home/azure/AzureNexus/appAzureNexus/proto/test.pb.h \
 	/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/.qt/qml_imports/appAzureNexus_conf.cmake \
@@ -179,6 +180,7 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qversiontagging.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qxptype_traits.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qyieldcpu.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/QColor \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/QImage \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/QPixmap \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/QScreen \

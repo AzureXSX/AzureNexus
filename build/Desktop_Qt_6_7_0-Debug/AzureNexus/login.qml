@@ -13,8 +13,8 @@ ApplicationWindow {
     maximumHeight: 270
     maximumWidth: 215
     visible: true
-    color: "#2e3440" //36393e
-
+    color: ColorsConfig.backgroundDarker
+    //"#2e3440" //36393e
     ColumnLayout {
         anchors.centerIn: parent
         height: parent.height
@@ -45,7 +45,7 @@ ApplicationWindow {
             }
             Timer {
                 id: timer
-                interval: 60
+                interval: 30 //60
                 running: true
                 repeat: true
                 onTriggered: {

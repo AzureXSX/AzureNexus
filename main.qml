@@ -13,7 +13,8 @@ ApplicationWindow {
     visible: true
     title: qsTr("Hello World")
     //373f51
-    color: "#2e3440" //ARGB |11456299
+    color: ColorsConfig.backgroundDarker
+    //ARGB |11456299
     //visibility: "FullScreen"
     id: mainWindow
 
@@ -141,5 +142,52 @@ ApplicationWindow {
     }
     SvgButton {
         anchors.centerIn: parent
+    }
+    PaddedRectangle {
+        color: "transparent"
+        border.color: "black"
+        border.width: 0
+        leftPadding: 8
+        bottomPadding: 0
+
+        anchors {
+            horizontalCenter: parent.horizontalCenter
+            bottom: parent.bottom
+            bottomMargin: 35
+        }
+
+        Rectangle {
+            width: parent.width
+            height: 1
+            color: "transparent"
+            border.width: 1
+            border.color: "white"
+            radius: 20
+            anchors {
+                horizontalCenter: parent.horizontalCenter
+                bottom: parent.bottom
+            }
+        }
+
+        width: 300
+        height: 30
+        radius: 8
+        clip: true
+
+        TextArea {
+            id: message_input
+            width: parent.width
+            height: 25
+            color: "white"
+            font.pixelSize: 11 // Font size in pixels
+            leftPadding: 8
+            rightPadding: 8
+            anchors {
+                bottom: parent.bottom
+                bottomMargin: 1.5
+            }
+            placeholderText: "Enter your message here..."
+            placeholderTextColor: "#464EB8"
+        }
     }
 }
