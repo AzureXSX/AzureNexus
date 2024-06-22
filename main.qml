@@ -116,21 +116,43 @@ ApplicationWindow {
                 height: 50
                 color: "transparent"
                 border.width: 1
-                border.color: "#464EB8"
+                border.color: "transparent"
                 radius: 10
                 clip: true
 
-                // AnimatedImage {
-                //     id: svgImage
-                //     width: parent.width
-                //     height: parent.height
-                //     source: "file:///home/azure/Downloads/ShinkaY.gif"
-                // }
-                Image {
+                Rectangle {
+                    id: container
+                    color: "transparent"
                     width: 50
                     height: 50
-                    source: "file:///home/azure/AzureNexus/icon1.svg"
+                    radius: 50 // Adjust the radius value for your desired rounded corners
+                    clip: true // Enable clipping
+
+                    AnimatedImage {
+                        id: svgImage
+                        width: 40
+                        height: 40
+                        anchors.centerIn: parent
+                        source: "file:///home/azure/Downloads/ShinkaY.gif"
+                    }
+
+                    PaddedRectangle {
+                        id: wrapperx
+                        anchors.fill: parent
+                        color: "transparent"
+                        radius: 50
+                        border.width: 15
+                        border.color: "black"
+                        padding: -8
+                    }
+
+                    // Image {
+                    //     width: 50
+                    //     height: 50
+                    //     source: "file:///home/azure/AzureNexus/icon1.svg"
+                    // }
                 }
+
                 MouseArea {
                     anchors.fill: parent
                     onClicked: {
