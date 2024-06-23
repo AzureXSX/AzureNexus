@@ -160,42 +160,38 @@ ApplicationWindow {
     }
     SvgButton {
         anchors.centerIn: parent
+
+        Rectangle {
+            anchors.centerIn: parent
+            width: 100
+            height: 100
+            radius: 10
+            color: "#88456299"
+            opacity: .8
+        }
     }
-    PaddedRectangle {
-        color: "transparent"
-        border.color: "black"
-        border.width: 0
-        leftPadding: 8
-        bottomPadding: 0
+    ScrollView {
+        id: view
+        width: 350
+        height: 30
+        clip: true
+
+        background: Rectangle {
+            anchors.fill: parent
+            color: "black"
+            radius: 10
+        }
 
         anchors {
             horizontalCenter: parent.horizontalCenter
             bottom: parent.bottom
-            bottomMargin: 35
+            bottomMargin: 15.5
         }
 
-        Rectangle {
-            width: parent.width
-            height: 1
-            color: "transparent"
-            border.width: 1
-            border.color: "white"
-            radius: 20
-            anchors {
-                horizontalCenter: parent.horizontalCenter
-                bottom: parent.bottom
-            }
-        }
-
-        width: 300
-        radius: 8
-        height: 25
-        clip: true
-    }
-    ScrollView {
-        id: view
-        width: 300
-        height: 500
+        leftPadding: 10
+        rightPadding: 10
+        bottomPadding: 2.5
+        topPadding: 2.5
 
         TextArea {
             id: message_input
@@ -205,12 +201,19 @@ ApplicationWindow {
             font.pixelSize: 11 // Font size in pixels
             leftPadding: 8
             rightPadding: 8
-            anchors {
-                bottom: parent.bottom
-                bottomMargin: 1.5
-            }
+            wrapMode: TextEdit.Wrap // Enable text wrapping
+
             placeholderText: "Enter your message here..."
             placeholderTextColor: "#464EB8"
+            onContentHeightChanged: {
+                if (contentHeight > 30 && contentHeight <= 200) {
+                    view.height = contentHeight
+                } else if (contentHeight <= 30) {
+                    view.height = 30
+                } else if (contentHeight > 200) {
+                    view.height = 200 // Set a maximum height if needed
+                }
+            }
         }
     }
 }
