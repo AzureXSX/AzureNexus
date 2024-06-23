@@ -9,14 +9,19 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake \
 	/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/appAzureNexus_autogen/moc_predefs.h \
 	/home/azure/AzureNexus/main.cpp \
+	/home/azure/AzureNexus/message.cpp \
+	/home/azure/AzureNexus/message.h \
 	/home/azure/AzureNexus/screencapture.cpp \
 	/home/azure/AzureNexus/screencapture.h \
 	/home/azure/AzureNexus/splashscreen.cpp \
 	/home/azure/AzureNexus/splashscreen.h \
+	/home/azure/AzureNexus/translationmanager.cpp \
+	/home/azure/AzureNexus/translationmanager.h \
 	/home/azure/AzureNexus/voicecapture.cpp \
 	/home/azure/AzureNexus/voicecapture.h \
 	/home/azure/Documents/GitHub/Linux-x64-HTTP3/client/QuicClient.cpp \
 	/home/azure/Documents/GitHub/Linux-x64-HTTP3/client/QuicClient.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QAbstractItemModel \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QBuffer \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QDateTime \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QDebug \
@@ -41,6 +46,7 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/q20memory.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/q20type_traits.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/q23utility.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qabstractitemmodel.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qalgorithms.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qanystringview.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qarraydata.h \

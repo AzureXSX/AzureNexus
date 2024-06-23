@@ -112,6 +112,23 @@
     {
         "classes": [
             {
+                "className": "Message",
+                "object": true,
+                "qualifiedClassName": "Message",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractItemModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "message.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
                 "className": "ScreenCapture",
                 "object": true,
                 "qualifiedClassName": "ScreenCapture",
@@ -148,6 +165,23 @@
             }
         ],
         "inputFile": "splashscreen.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "TranslationManager",
+                "object": true,
+                "qualifiedClassName": "TranslationManager",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "translationmanager.h",
         "outputRevision": 68
     },
     {

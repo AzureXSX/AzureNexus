@@ -33,6 +33,13 @@ namespace _0x5f_AzureNexus_Wayland_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _0x5f_AzureNexus_Message_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -51,6 +58,7 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/AzureNexus/login.qml"), &QmlCacheGeneratedCode::_0x5f_AzureNexus_login_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/AzureNexus/SvgButton.qml"), &QmlCacheGeneratedCode::_0x5f_AzureNexus_SvgButton_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/AzureNexus/Wayland.qml"), &QmlCacheGeneratedCode::_0x5f_AzureNexus_Wayland_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/AzureNexus/Message.qml"), &QmlCacheGeneratedCode::_0x5f_AzureNexus_Message_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

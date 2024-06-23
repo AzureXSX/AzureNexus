@@ -39,10 +39,6 @@ ApplicationWindow {
             anchors.leftMargin: 7
             anchors.topMargin: 10
             id: contacts
-            highlight: Rectangle {
-                color: "#464EB8"
-                radius: 5
-            }
             focus: true
 
             model: ListModel {
@@ -192,14 +188,19 @@ ApplicationWindow {
         }
 
         width: 300
-        height: 30
         radius: 8
+        height: 25
         clip: true
+    }
+    ScrollView {
+        id: view
+        width: 300
+        height: 500
 
         TextArea {
             id: message_input
             width: parent.width
-            height: 25
+            height: contentHeight
             color: "white"
             font.pixelSize: 11 // Font size in pixels
             leftPadding: 8

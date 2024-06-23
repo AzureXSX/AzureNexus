@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "TranslationManager",
+            "object": true,
+            "qualifiedClassName": "TranslationManager",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "translationmanager.h",
+    "outputRevision": 68
+}

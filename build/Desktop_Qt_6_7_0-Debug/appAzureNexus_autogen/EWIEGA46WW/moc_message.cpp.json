@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "Message",
+            "object": true,
+            "qualifiedClassName": "Message",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractItemModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "message.h",
+    "outputRevision": 68
+}

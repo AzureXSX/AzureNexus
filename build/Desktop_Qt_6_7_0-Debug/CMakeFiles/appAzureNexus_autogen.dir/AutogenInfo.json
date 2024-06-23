@@ -1092,6 +1092,12 @@
 			null
 		],
 		[
+			"/home/azure/AzureNexus/message.h",
+			"Mu",
+			"EWIEGA46WW/moc_message.cpp",
+			null
+		],
+		[
 			"/home/azure/AzureNexus/screencapture.h",
 			"Mu",
 			"EWIEGA46WW/moc_screencapture.cpp",
@@ -1101,6 +1107,12 @@
 			"/home/azure/AzureNexus/splashscreen.h",
 			"Mu",
 			"EWIEGA46WW/moc_splashscreen.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/translationmanager.h",
+			"Mu",
+			"EWIEGA46WW/moc_translationmanager.cpp",
 			null
 		],
 		[
@@ -1198,6 +1210,7 @@
 	[
 		"/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/.qt/rcc/qrc_appAzureNexus_raw_qml_0.cpp",
 		"/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/.qt/rcc/qrc_qmake_AzureNexus.cpp",
+		"/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/.rcc/qmlcache/appAzureNexus_Message_qml.cpp",
 		"/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/.rcc/qmlcache/appAzureNexus_SvgButton_qml.cpp",
 		"/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/.rcc/qmlcache/appAzureNexus_Wayland_qml.cpp",
 		"/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/.rcc/qmlcache/appAzureNexus_login_qml.cpp",
@@ -1217,8 +1230,10 @@
 	[
 		[ "/home/azure/AzureNexus/appAzureNexus/proto/test.pb.cc", "Mu", null ],
 		[ "/home/azure/AzureNexus/main.cpp", "Mu", null ],
+		[ "/home/azure/AzureNexus/message.cpp", "Mu", null ],
 		[ "/home/azure/AzureNexus/screencapture.cpp", "Mu", null ],
 		[ "/home/azure/AzureNexus/splashscreen.cpp", "Mu", null ],
+		[ "/home/azure/AzureNexus/translationmanager.cpp", "Mu", null ],
 		[ "/home/azure/AzureNexus/voicecapture.cpp", "Mu", null ],
 		[
 			"/home/azure/Documents/GitHub/Linux-x64-HTTP3/client/QuicClient.cpp",
