@@ -19,13 +19,6 @@ ApplicationWindow {
 
     GridLayout {
         id: x_window_wrapper
-        anchors.left: parent.left
-        anchors.right: parent.right
-
-        onWidthChanged: {
-            console.log("raw: " + width)
-        }
-
         Rectangle {
             id: contacts_wrapper
             Layout.column: 0
@@ -337,7 +330,7 @@ ApplicationWindow {
                 Layout.topMargin: 24.3
                 Layout.row: 1
                 Layout.column: 1
-                Layout.preferredWidth: x_window_grid.width * 0.38
+                Layout.preferredWidth: x_window_grid.width * 0.4
                 Layout.preferredHeight: x_window_grid.height * 0.88 - 24.3
                 color: ColorsConfig.backgroundDarker
                 topRightRadius: 8 // No radius for top right corner
