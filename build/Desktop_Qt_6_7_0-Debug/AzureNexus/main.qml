@@ -319,9 +319,54 @@ ApplicationWindow {
                 bottomRightRadius: 0 // Radius for bottom right corner
                 topLeftRadius: 8 // Radius for top left corner
 
-                ColumnLayout {
-                    width: parent.width
+                ListView {
+                    width: parent.width - 20
                     height: parent.height
+                    spacing: 15
+                    topMargin: 10
+                    anchors.verticalCenter: parent.verticalCenter
+
+                    model: ListModel {
+                        ListElement {
+                            color: "lightblue"
+                        }
+                        ListElement {
+                            color: "lightgreen"
+                        }
+                        ListElement {
+                            color: "lightcoral"
+                        }
+                        ListElement {
+                            color: "lightgreen"
+                        }
+                        ListElement {
+                            color: "lightcoral"
+                        }
+                    }
+
+                    delegate: Component {
+
+                        Rectangle {
+                            id: rectd
+                            width: 200
+                            height: 60
+                            radius: 8
+                            color: testArea.containsMouse ? "#34343B" : "#222226"
+                            Layout.alignment: Qt.AlignTop
+
+                            Behavior on color {
+                                ColorAnimation {
+                                    duration: 150
+                                }
+                            }
+
+                            MouseArea {
+                                id: testArea
+                                hoverEnabled: true
+                                anchors.fill: parent
+                            }
+                        }
+                    }
                 }
             }
 

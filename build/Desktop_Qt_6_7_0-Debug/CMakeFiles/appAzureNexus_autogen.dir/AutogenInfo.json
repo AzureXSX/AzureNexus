@@ -1086,12 +1086,6 @@
 			null
 		],
 		[
-			"/home/azure/AzureNexus/appAzureNexus/proto/test.pb.h",
-			"Mu",
-			"KZYTJMXR4F/moc_test.pb.cpp",
-			null
-		],
-		[
 			"/home/azure/AzureNexus/message.h",
 			"Mu",
 			"EWIEGA46WW/moc_message.cpp",
@@ -1228,7 +1222,6 @@
 	"SETTINGS_FILE" : "/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/appAzureNexus_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/azure/AzureNexus/appAzureNexus/proto/test.pb.cc", "Mu", null ],
 		[ "/home/azure/AzureNexus/main.cpp", "Mu", null ],
 		[ "/home/azure/AzureNexus/message.cpp", "Mu", null ],
 		[ "/home/azure/AzureNexus/screencapture.cpp", "Mu", null ],

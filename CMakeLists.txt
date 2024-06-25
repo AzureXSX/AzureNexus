@@ -22,8 +22,6 @@ qt_add_qml_module(appAzureNexus
     QML_FILES main.qml
     QML_FILES login.qml
     SOURCES
-    SOURCES appAzureNexus/proto/test.pb.h
-    SOURCES appAzureNexus/proto/test.pb.cc
     SOURCES screencapture.h screencapture.cpp
     SOURCES voicecapture.h voicecapture.cpp
     SOURCES splashscreen.h splashscreen.cpp
@@ -36,6 +34,11 @@ qt_add_qml_module(appAzureNexus
     SOURCES translationmanager.h translationmanager.cpp
     QML_FILES Message.qml
     SOURCES message.h message.cpp
+    SOURCES ./.config/.env
+    SOURCES ./cache
+    SOURCES ./Documents/Files
+    SOURCES ./Documents/Images
+    SOURCES ./Documents/Videos
 )
 
 #SOURCES waylandscreencpature.h waylandscreencpature.cpp

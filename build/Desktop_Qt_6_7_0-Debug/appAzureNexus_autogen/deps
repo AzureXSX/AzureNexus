@@ -1,8 +1,6 @@
 appAzureNexus_autogen/timestamp: \
 	/home/azure/AzureNexus/CMakeLists.txt \
 	/home/azure/AzureNexus/ColorsConfig.h \
-	/home/azure/AzureNexus/appAzureNexus/proto/test.pb.cc \
-	/home/azure/AzureNexus/appAzureNexus/proto/test.pb.h \
 	/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/.qt/qml_imports/appAzureNexus_conf.cmake \
 	/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/.qtc/package-manager/auto-setup.cmake \
 	/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \
