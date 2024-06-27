@@ -15,8 +15,8 @@ import QtQuick.Layouts
 ApplicationWindow {
     width: setWidth
     height: screenHeight
-    minimumWidth: 840
-    minimumHeight: 420
+    minimumWidth: 720
+    minimumHeight: 410
     visible: true
     title: qsTr("Hello World")
     color: ColorsConfig.backgroundDarkest
@@ -37,13 +37,64 @@ ApplicationWindow {
         GridLayout {
             anchors.fill: parent
             id: grid
-            columns: 2
-            anchors.margins: 8
+            columnSpacing: 20
+            columns: 3
+            anchors {
+                leftMargin: 12
+                topMargin: 12
+                rightMargin: 12
+                bottomMargin: 0
+            }
+
+            Loader {}
 
             Rectangle {
-                implicitWidth: parent.width * .97
+                id: xuxu
+                Layout.row: 0
+                Layout.column: 0
+                Layout.columnSpan: 3
+                color: ColorsConfig.backgroundDarker
+                radius: 10
+                implicitWidth: parent.width
                 implicitHeight: 60
+                Layout.topMargin: 4
                 Layout.alignment: Qt.AlignTop | Qt.AlignCenter
+            }
+            Rectangle {
+                Layout.row: 1
+                Layout.column: 0
+                color: ColorsConfig.backgroundDarker
+                radius: 10
+                Layout.preferredWidth: parent.width * .1975
+                Layout.topMargin: 4
+                Layout.preferredHeight: mainWindow.height - xuxu.height - 14
+                Layout.alignment: Qt.AlignTop | Qt.AlignLeft
+            }
+            Rectangle {
+                Layout.row: 1
+                Layout.column: 1
+                Layout.columnSpan: receiver_profile.visible ? 1 : 2
+                color: ColorsConfig.backgroundDarker
+                radius: 10
+                Layout.preferredWidth: parent.width * .5174
+                Layout.fillWidth: true
+                Layout.topMargin: 4
+                Layout.preferredHeight: mainWindow.height - xuxu.height - 14
+                Layout.alignment: Qt.AlignTop | Qt.AlignCenter
+            }
+            Rectangle {
+                id: receiver_profile
+                Layout.row: 1
+                Layout.column: 2
+                color: ColorsConfig.mainBlueDark
+                radius: 10
+                implicitWidth: parent.width * .2431
+                Layout.topMargin: 4
+                Layout.preferredHeight: (mainWindow.height - xuxu.height - 14) * .2365
+                Layout.alignment: Qt.AlignTop | Qt.AlignRight
+                bottomLeftRadius: 0
+                bottomRightRadius: 0
+                visible: mainWindow.width > 1000 ? true : false
             }
         }
     }
@@ -311,7 +362,7 @@ ApplicationWindow {
             contentWidth: width
             contentHeight: gl.implicitHeight
             clip: true
-            ScrollIndicator.vertical: ScrollIndicator {}
+            boundsBehavior: Flickable.StopAtBounds
             LayoutItemProxy {
                 id: gl
                 width: parent.width
