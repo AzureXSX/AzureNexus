@@ -2,8 +2,18 @@ import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
 
+
+/*
+    W 83.33% {
+        Top 90.63% | H 8.33%
+        Left 18.75%
+        Middle 48.44% | 46.88% H
+        Right 20.31%
+    }
+    TextAreaH 5.56%
+*/
 ApplicationWindow {
-    width: screenWidth
+    width: setWidth
     height: screenHeight
     minimumWidth: 840
     minimumHeight: 420
@@ -17,16 +27,35 @@ ApplicationWindow {
         console.log(width)
     }
 
-    GridLayout {
-        id: x_window_wrapper
+    Rectangle {
+        id: contentItem
+        Layout.fillWidth: true
+        implicitHeight: grid.implicitHeight
+        implicitWidth: grid.implicitWidth
+        color: "transparent"
+
+        GridLayout {
+            anchors.fill: parent
+            id: grid
+            columns: 2
+            anchors.margins: 8
+
+            Rectangle {
+                implicitWidth: parent.width * .97
+                implicitHeight: 60
+                Layout.alignment: Qt.AlignTop | Qt.AlignCenter
+            }
+        }
+    }
+
+    RowLayout {
+        id: smallLayout
+        anchors.fill: parent
         Rectangle {
             id: contacts_wrapper
-            Layout.column: 0
-            Layout.preferredWidth: 65
-            Layout.preferredHeight: parent.height
+            implicitWidth: 65
+            implicitHeight: parent.height
             color: ColorsConfig.backgroundDarker
-
-            Layout.alignment: Qt.AlignLeft
 
             Rectangle {
                 height: 7
@@ -276,186 +305,18 @@ ApplicationWindow {
             }
         }
 
-        GridLayout {
-            Layout.column: 1
-            id: x_window_grid
-            Layout.preferredWidth: screenWidth - contacts_wrapper.width
-            Layout.preferredHeight: screenHeight
-            Layout.alignment: Qt.AlignTop | Qt.AlignHCenter
-            rows: 2
-            columnSpacing: 0
-            rowSpacing: 0
-
-            Rectangle {
-                id: headerx
-                Layout.topMargin: 30
-                Layout.row: 0
-                Layout.columnSpan: 3
-                Layout.preferredWidth: x_window_grid.width * 0.96
-                Layout.preferredHeight: x_window_grid.height * 0.08
-                color: ColorsConfig.backgroundDarker
-                radius: 8
-                Layout.alignment: Qt.AlignTop | Qt.AlignHCenter
-
-                ColumnLayout {
-                    width: parent.width
-                    height: parent.height
-                }
-            }
-
-            // First column in the second row, occupying 80% of the GridLayout height
-            Rectangle {
-                Layout.topMargin: 24.3
-                Layout.row: 1
-                Layout.column: 0
-                Layout.leftMargin: Math.abs(
-                                       (headerx.width - x_window_grid.width) / 2)
-                Layout.alignment: Qt.AlignLeft
-                Layout.preferredWidth: x_window_grid.width * 0.25
-                Layout.preferredHeight: x_window_grid.height * 0.88 - 24.3
-                color: ColorsConfig.backgroundDarker
-                topRightRadius: 8 // No radius for top right corner
-                bottomLeftRadius: 0 // No radius for bottom left corner
-                bottomRightRadius: 0 // Radius for bottom right corner
-                topLeftRadius: 8 // Radius for top left corner
-
-                ListView {
-                    width: parent.width - 20
-                    height: parent.height
-                    spacing: 15
-                    topMargin: 10
-                    anchors.verticalCenter: parent.verticalCenter
-
-                    model: ListModel {
-                        ListElement {
-                            color: "lightblue"
-                        }
-                        ListElement {
-                            color: "lightgreen"
-                        }
-                        ListElement {
-                            color: "lightcoral"
-                        }
-                        ListElement {
-                            color: "lightgreen"
-                        }
-                        ListElement {
-                            color: "lightcoral"
-                        }
-                    }
-
-                    delegate: Component {
-
-                        Rectangle {
-                            id: rectd
-                            width: 200
-                            height: 60
-                            radius: 8
-                            color: testArea.containsMouse ? "#34343B" : "#222226"
-                            Layout.alignment: Qt.AlignTop
-
-                            Behavior on color {
-                                ColorAnimation {
-                                    duration: 150
-                                }
-                            }
-
-                            MouseArea {
-                                id: testArea
-                                hoverEnabled: true
-                                anchors.fill: parent
-                            }
-                        }
-                    }
-                }
-            }
-
-            // Second column in the second row, occupying 80% of the GridLayout height
-            Rectangle {
-                Layout.topMargin: 24.3
-                Layout.row: 1
-                Layout.column: 1
-                Layout.preferredWidth: x_window_grid.width * 0.4
-                Layout.preferredHeight: x_window_grid.height * 0.88 - 24.3
-                color: ColorsConfig.backgroundDarker
-                topRightRadius: 8 // No radius for top right corner
-                bottomLeftRadius: 0 // No radius for bottom left corner
-                bottomRightRadius: 0 // Radius for bottom right corner
-                topLeftRadius: 8 // Radius for top left corner
-
-                Layout.alignment: Qt.AlignHCenter | Qt.AlignTop
-
-                ColumnLayout {
-                    width: parent.width
-                    height: parent.height
-
-                    ScrollView {
-                        id: view
-                        width: 350
-                        height: 30
-                        clip: true
-
-                        background: Rectangle {
-                            anchors.fill: parent
-                            color: ColorsConfig.backgroundDarkGray
-                            radius: 10
-                        }
-
-                        Layout.alignment: Qt.AlignBottom | Qt.AlignHCenter
-
-                        leftPadding: 10
-                        rightPadding: 10
-                        bottomPadding: 2.5
-                        topPadding: 2.5
-
-                        TextArea {
-                            id: message_input
-                            width: parent.width
-                            height: contentHeight
-                            color: "white"
-                            font.pixelSize: 11 // Font size in pixels
-                            leftPadding: 8
-                            rightPadding: 8
-                            wrapMode: TextEdit.Wrap // Enable text wrapping
-
-                            placeholderText: "Enter your message here..."
-                            placeholderTextColor: "white"
-                            onContentHeightChanged: {
-                                if (contentHeight > 30
-                                        && contentHeight <= 200) {
-                                    view.height = contentHeight
-                                } else if (contentHeight <= 30) {
-                                    view.height = 30
-                                } else if (contentHeight > 200) {
-                                    view.height = 200 // Set a maximum height if needed
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-
-            // Third column in the second row, occupying 80% of the GridLayout height
-            Rectangle {
-                Layout.topMargin: 24.3
-                Layout.alignment: Qt.AlignRight | Qt.AlignTop
-                Layout.rightMargin: Math.abs(
-                                        (headerx.width - x_window_grid.width) / 2)
-                Layout.row: 1
-                Layout.column: 2
-                Layout.preferredWidth: x_window_grid.width * 0.28
-                Layout.preferredHeight: 160
-                color: ColorsConfig.mainBlueDark
-                //radius: 8
-                topRightRadius: 8 // No radius for top right corner
-                bottomLeftRadius: 0 // No radius for bottom left corner
-                bottomRightRadius: 0 // Radius for bottom right corner
-                topLeftRadius: 8 // Radius for top left corner
-
-                ColumnLayout {
-                    width: parent.width
-                    height: x_window_grid.height
-                }
+        Flickable {
+            Layout.fillHeight: true
+            Layout.fillWidth: true
+            contentWidth: width
+            contentHeight: gl.implicitHeight
+            clip: true
+            ScrollIndicator.vertical: ScrollIndicator {}
+            LayoutItemProxy {
+                id: gl
+                width: parent.width
+                height: implicitHeight
+                target: contentItem
             }
         }
     }
