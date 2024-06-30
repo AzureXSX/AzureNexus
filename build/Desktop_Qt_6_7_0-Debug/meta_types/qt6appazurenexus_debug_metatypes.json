@@ -129,6 +129,47 @@
     {
         "classes": [
             {
+                "className": "RoundedImage",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "source",
+                        "notify": "sourceChanged",
+                        "read": "source",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setSource"
+                    }
+                ],
+                "qualifiedClassName": "RoundedImage",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "sourceChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QQuickPaintedItem"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "roundedimage.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
                 "className": "ScreenCapture",
                 "object": true,
                 "qualifiedClassName": "ScreenCapture",

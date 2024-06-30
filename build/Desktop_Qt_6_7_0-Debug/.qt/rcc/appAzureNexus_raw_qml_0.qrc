@@ -6,6 +6,7 @@
     <file alias="Wayland.qml">/home/azure/AzureNexus/Wayland.qml</file>
     <file alias="Message.qml">/home/azure/AzureNexus/Message.qml</file>
     <file alias="AzureNexus.qrc">/home/azure/AzureNexus/AzureNexus.qrc</file>
+    <file alias="RoundImageShader.frag">/home/azure/AzureNexus/RoundImageShader.frag</file>
   </qresource>
 </RCC>
 

@@ -37,7 +37,7 @@ ApplicationWindow {
         GridLayout {
             anchors.fill: parent
             id: grid
-            columnSpacing: 20
+            columnSpacing: receiver_profile.visible ? 20 : 15
             columns: 3
             anchors {
                 leftMargin: 12
@@ -45,8 +45,6 @@ ApplicationWindow {
                 rightMargin: 12
                 bottomMargin: 0
             }
-
-            Loader {}
 
             Rectangle {
                 id: xuxu
@@ -63,6 +61,7 @@ ApplicationWindow {
             Rectangle {
                 Layout.row: 1
                 Layout.column: 0
+                Layout.minimumWidth: 170
                 color: ColorsConfig.backgroundDarker
                 radius: 10
                 Layout.preferredWidth: parent.width * .1975
@@ -86,15 +85,94 @@ ApplicationWindow {
                 id: receiver_profile
                 Layout.row: 1
                 Layout.column: 2
-                color: ColorsConfig.mainBlueDark
+                color: "transparent"
                 radius: 10
                 implicitWidth: parent.width * .2431
                 Layout.topMargin: 4
-                Layout.preferredHeight: (mainWindow.height - xuxu.height - 14) * .2365
+                Layout.preferredHeight: mainWindow.height - xuxu.height - 14
                 Layout.alignment: Qt.AlignTop | Qt.AlignRight
                 bottomLeftRadius: 0
                 bottomRightRadius: 0
                 visible: mainWindow.width > 1000 ? true : false
+
+                Rectangle {
+                    id: user_info
+                    Layout.fillWidth: true
+                    implicitHeight: user_info_grid.implicitHeight
+                    implicitWidth: user_info_grid.implicitWidth
+                    color: "transparent"
+
+                    GridLayout {
+                        anchors.fill: parent
+                        id: user_info_grid
+                        columnSpacing: receiver_profile.visible ? 20 : 15
+                        columns: 3
+                        anchors {
+                            leftMargin: 0
+                            topMargin: 0
+                            rightMargin: 0
+                            bottomMargin: 0
+                        }
+
+                        Rectangle {
+                            Layout.row: 0
+                            id: banner_wrapper
+                            radius: 10
+                            color: ColorsConfig.mainBlueDark
+                            implicitHeight: receiver_profile.height * .2345
+                            implicitWidth: receiver_profile.width
+                            bottomLeftRadius: 0
+                            bottomRightRadius: 0
+                        }
+
+                        Rectangle {
+                            Layout.row: 1
+                            id: avatar_wrapper
+                            radius: 300
+                            color: ColorsConfig.backgroundDarkest
+                            Layout.preferredHeight: banner_wrapper.height
+                            Layout.preferredWidth: banner_wrapper.height
+                            Layout.topMargin: -banner_wrapper.height * .5
+                            Layout.alignment: Qt.AlignHCenter
+                            clip: true
+
+                            ShaderEffect {}
+
+                            AnimatedImage {
+                                id: svgImage
+                                width: parent.width - 45
+                                height: parent.height - 45
+                                z: 1
+                                anchors.centerIn: parent
+                                source: "file:///home/azure/Downloads/1dTC.gif"
+
+                                ShaderEffect {
+                                    anchors.fill: parent
+                                    fragmentShader: "RoundImageShader.frag"
+                                    property real radius: 0.1 // Adjust the radius as needed
+                                    property variant sourceTexture: ShaderEffectSource {
+                                        sourceItem: svgImage
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                Flickable {
+                    width: parent.width
+                    height: parent.height
+                    contentWidth: width
+                    contentHeight: gx.implicitHeight
+                    clip: true
+                    //boundsBehavior: Flickable.StopAtBounds
+                    LayoutItemProxy {
+                        id: gx
+                        width: parent.width
+                        height: implicitHeight
+                        target: user_info
+                    }
+                }
             }
         }
     }
@@ -132,6 +210,7 @@ ApplicationWindow {
                 anchors.leftMargin: 12.5
                 anchors.topMargin: 10
                 anchors.horizontalCenter: contacts_wrapper.horizontalCenter
+                interactive: false
                 id: contacts
                 focus: true
 

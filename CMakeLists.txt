@@ -39,6 +39,8 @@ qt_add_qml_module(appAzureNexus
     SOURCES ./Documents/Files
     SOURCES ./Documents/Images
     SOURCES ./Documents/Videos
+    SOURCES roundedimage.h roundedimage.cpp
+    RESOURCES RoundImageShader.frag
 )
 
 #SOURCES waylandscreencpature.h waylandscreencpature.cpp
